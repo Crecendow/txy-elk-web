@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天芯云监控面板</title>
+    <link rel="stylesheet" href="layui/css/layui.css"  type="text/css">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <script src="js/jquery.min.js"></script>
+    <script src="layui/layui.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div class = "container">
+        <div class = main_top>
+            <ul class="layui-nav">
+                <li class="layui-nav-item"><a data-src="/info1"  target="_top" >系统日志</a></li>
+                <li class="layui-nav-item"><a data-src="/info2"  target="_top" >系统指标</a></li>
+                <li class="layui-nav-item">
+                    <a data-src="/info3"  target="_top" >仪表盘</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="/">仪表盘1</a></dd>
+                        <dd><a href="/">仪表盘2</a></dd>
+                        <dd><a href="/">仪表盘3</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item"><a data-src="/info4"  target="_top" >拖动部署</a></li>
+                <li class="layui-nav-item"><a data-src="/info5"  target="_top" >测试交互</a></li>
+                <li class="layui-nav-item" lay-unselect="" style="float: right">
+                    <a href="/login"><img src="//t.cn/RCzsdCq" class="layui-nav-img">我</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class ="content-box">
+            <iframe frameborder="0" scrolling="no" style="width: 100%" src="http://172.18.199.243:5601/app/kibana#/dashboard/Filebeat-syslog-dashboard?embed=true&_g=()" id="content-frame">
+            </iframe>
+        </div>
+    </div>
+</body>
+<script>
+
+
+</script>
+</html>

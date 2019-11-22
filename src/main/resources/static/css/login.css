@@ -1,0 +1,71 @@
+.login-blank{
+    height: 300px;
+    width: 100%;
+}
+
+.login-box {
+    text-align: center;
+    width: 320px;
+    height: 241px;
+    max-height: 300px;
+}
+
+.login-header{
+    margin-bottom: 20px;
+}
+
+
+.login-box .layui-input[type='number'] {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.login-box img {
+    display: inline-block;
+    width: 46%;
+    height: 38px;
+    border: none;
+    vertical-align: top;
+    cursor: pointer;
+    margin-left: 4%;
+}
+
+.login-box button.btn-reset {
+    width: 95px;
+}
+
+.login-box button.btn-submit {
+    width: 190px;
+}
+
+.login-box {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.login-box header {
+    margin-top: 150px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.login-box header, .login-box form, .login-box form .layui-input-inline {
+    margin-bottom: 15px;
+}
+
+.login-box form .layui-input-inline, .login-box form .layui-input-inline input, .login-box form .layui-input-inline button {
+    width: 100%;
+}
+
+.login-box form .login-btn {
+    margin-bottom: 5px;
+}

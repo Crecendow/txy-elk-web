@@ -1,0 +1,33 @@
+/*.nav-blank{*/
+/*    width: 100%;*/
+/*    height: 30px;*/
+/*    background-color: white;*/
+/*}*/
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    overflow:hidden;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.main_top{
+    min-height: 50px;
+
+}
+
+.content-box{
+    flex: 1;
+}
+
