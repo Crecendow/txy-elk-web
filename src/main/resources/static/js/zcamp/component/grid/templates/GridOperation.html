@@ -1,0 +1,22 @@
+{{#if isSingleBtn}}
+    <a class="btn btn-default {{singleBtn.name}}" data-action="{{singleBtn.name}}">{{singleBtn.text}}</a>
+{{else if isEmpty}}
+{{else}}
+    <div class="btn-group">
+        <a class="btn btn-default {{firstBtn.name}}" data-action="{{firstBtn.name}}">{{firstBtn.text}}</a>
+        <a class="btn btn-default dropdown-toggle" data-attach-to="body" data-toggle="dropdown" aria-expanded="false">
+            <span class="caret"></span>
+        </a>
+
+        <ul class="dropdown-menu" role="menu">
+            {{#each btnsOpt as |btn|}}
+            {{#if btn.divider}}
+            <li class="divider"> </li>
+            {{else}}
+            <li><a class="{{btn.name}}" data-action="{{btn.name}}" href="javascript:void(0)">{{btn.text}}</a></li>
+            {{/if}}
+            {{/each }}
+        </ul>
+    </div>
+{{/if}}
+

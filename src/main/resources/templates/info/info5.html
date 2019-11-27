@@ -2,14 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>绘制面板</title>
+    <link rel="stylesheet" href="../css/layui.css"  type="text/css">
     <script type="text/javascript" src="../fish/fish-topo-flow.js"></script>
+    <script type="text/javascript" src="../fish/fish-topo-link.js"></script>
     <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <style>
+        html{
+            height: 100%;
+            width: 100%;
+        }
 
+        body{
+            overflow:hidden;
+            padding: 0;
+            margin: 0;
+        }
+
+        #canvas-panel{
+            position: relative;
+            height: 900px;
+            float: left;
+            width: 85%;
+        }
+
+        #button-panel{
+            position: relative;
+            height:900px;
+            float: right;
+            width: 15%;
+        }
+
+        #button1,#button2,#button3,#button4,#button5,#button6,#button7{
+            width: 80px;
+            height: 80px;
+            float:right;
+            background-color: #F8F8F8;
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
-    <div id="demo-html">
-        <div id="flowIns" style="height: 500px; overflow: hidden;position:relative; border: 1px sold black">
+    <div class ="container">
+        <div id ="canvas-panel">
+            <div id="flowIns" style="height: 700px; overflow: hidden;position:relative; border: 1px sold black">
+            </div>
+        </div>
+        <div id ="button-panel" >
+            <div id ="button1"  onclick="button1()"><img src="../svg/cloud1.svg" height="50px" width="50px" style="margin: 15px" title="云服务"/></div>
+            <div id ="button2"  onclick="button2()"><img src="../svg/circle.svg" height="50px" width="50px" style="margin: 15px" title="用户群"/></div>
+            <div id ="button3"  onclick="button3()"><img src="../svg/cloud.svg" height="50px" width="50px" style="margin: 15px" title="数据库"/></div>
+            <div id ="button4"  onclick="button4()"><img src="../svg/cluster.svg" height="50px" width="50px" style="margin: 15px" title="网络"/></div>
+            <div id ="button5"  onclick="button5()"><img src="../svg/host.svg" height="50px" width="50px" style="margin: 15px" title="机房"/></div>
+            <div id ="button6"  onclick="button6()"><img src="../svg/net.svg" height="50px" width="50px" style="margin: 15px" title="服务器"/></div>
+            <div id ="button7"  onclick="button7()"><img src="../svg/user.svg" height="50px" width="50px" style="margin: 15px" title="管理部门"/></div>
         </div>
     </div>
     <script type="text/javascript" src="../js/info5.js"></script>

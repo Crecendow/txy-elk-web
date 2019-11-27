@@ -1,0 +1,49 @@
+.bpmn_toolbar {
+    margin: 5px 0;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #e3e3e3;
+}
+
+/** ztree定制样式开始 */
+.stencilbox-ctr {
+    padding: 15px 25px;
+}
+
+.stencilbox-ctr .ztree {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/** 去掉所有三角形 */
+.stencilbox-ctr .ztree li span.switch {
+    visibility: hidden;
+    width: 1px;
+}
+
+.stencilbox-ctr .ztree li span {
+    margin-right: 2px !important;
+}
+
+/** 图标垂直对齐 */
+.stencilbox-ctr .ztree li .button.ico_docu, .stencilbox-drag-ui li .button.ico_docu{
+    margin-bottom: -4px;
+}
+.stencilbox-ctr .ztree li .button.ico_open{
+    margin-bottom: -4px;
+}
+.stencilbox-ctr .ztree li .button.ico_close{
+    margin-bottom: -4px;
+}
+
+.stencilbox-ctr .ztree li.imageapp-selected a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 24px;
+    z-index: -1;
+    background-color: #ddf8ff;
+}
+
+/** ztree定制样式结束 */

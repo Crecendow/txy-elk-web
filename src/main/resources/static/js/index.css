@@ -1,0 +1,66 @@
+.bpmn_toolbar {
+    margin: 5px 0;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #e3e3e3;
+}
+.accordion>.panel {
+    border: none;
+    box-shadow: none;
+}
+.accordion>.panel>.panel-heading {
+    background-color: #fff;
+}
+.accordion .panel-body {
+    padding: 0;
+}
+/**start**/
+.accordion .list-group {
+    margin-bottom: 0;
+}
+.accordion .list-group-item {
+    border: none;
+}
+.topo-menu-nav .glyphicon-triangle-right,
+.topo-menu-nav .glyphicon-triangle-bottom {
+    font-family:"iconfont" !important;
+    width: 13px;
+    height: 13px;
+    position: relative;
+}
+.topo-menu-nav .glyphicon-triangle-right:before {
+    content: "\f040";
+    position: absolute;
+    top: -1px;
+}
+.topo-menu-nav .glyphicon-triangle-bottom:before {
+    content: "\f042";
+    font-size: 16px;
+    position: absolute;
+    top: -2px;
+}
+.topo-menu-nav .list-group-item {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.topo-menu-nav .list-group-item:nth-child(2n+1) {
+    padding-right: 5px;
+}
+.topo-menu-nav .list-group-item:nth-child(2n) {
+    padding-left: 5px;
+}
+.topo-menu-nav .list-group-item > div {
+    cursor: move;
+}
+.topo-menu-nav .list-group-item span {
+    display: block;
+    line-height: 20px;
+    color: #5c5c5c;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.topo-menu-nav .panel-title {
+    color: #4a4a4a;
+}

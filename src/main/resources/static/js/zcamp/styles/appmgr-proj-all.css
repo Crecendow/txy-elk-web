@@ -1,0 +1,2113 @@
+.zcampBaseViewDiv h1,
+.zcampBaseViewDiv h2,
+.zcampBaseViewDiv h3,
+.zcampBaseViewDiv h4,
+.zcampBaseViewDiv h5,
+.zcampBaseViewDiv h6 {
+  font-weight: 100;
+}
+.zcampBaseViewDiv h1 {
+  font-size: 30px;
+}
+.zcampBaseViewDiv h2 {
+  font-size: 24px;
+}
+.zcampBaseViewDiv h3 {
+  font-size: 16px;
+}
+.zcampBaseViewDiv h4 {
+  font-size: 14px;
+}
+.zcampBaseViewDiv h5 {
+  font-size: 12px;
+}
+.zcampBaseViewDiv h6 {
+  font-size: 10px;
+}
+.zcampBaseViewDiv h3,
+.zcampBaseViewDiv h4,
+.zcampBaseViewDiv h5 {
+  margin-top: 5px;
+  font-weight: 600;
+}
+.zcampBaseViewDiv .btn.btn-detail {
+  border-radius: 0px;
+}
+.zcampBaseViewDiv .float-e-margins .btn {
+  margin-bottom: 5px;
+}
+.zcampBaseViewDiv .btn-w-m {
+  min-width: 120px;
+}
+.zcampBaseViewDiv .btn-primary.btn-outline {
+  color: #1ab394;
+}
+.zcampBaseViewDiv .btn-success.btn-outline {
+  color: #1c84c6;
+}
+.zcampBaseViewDiv .btn-info.btn-outline {
+  color: #23c6c8;
+}
+.zcampBaseViewDiv .btn-warning.btn-outline {
+  color: #f8ac59;
+}
+.zcampBaseViewDiv .btn-danger.btn-outline {
+  color: #ed5565;
+}
+.zcampBaseViewDiv .btn-primary.btn-outline:hover,
+.zcampBaseViewDiv .btn-success.btn-outline:hover,
+.zcampBaseViewDiv .btn-info.btn-outline:hover,
+.zcampBaseViewDiv .btn-warning.btn-outline:hover,
+.zcampBaseViewDiv .btn-danger.btn-outline:hover {
+  color: #fff;
+}
+.zcampBaseViewDiv .btn-detail {
+  background-color: #1ab394;
+  border-color: #1ab394;
+  color: #FFFFFF;
+}
+.zcampBaseViewDiv .btn-primary:hover,
+.zcampBaseViewDiv .btn-primary:focus,
+.zcampBaseViewDiv .btn-primary:active,
+.zcampBaseViewDiv .btn-primary.active,
+.zcampBaseViewDiv .open .dropdown-toggle.btn-primary {
+  background-color: #18a689;
+  border-color: #18a689;
+  color: #FFFFFF;
+}
+.zcampBaseViewDiv .btn-primary:active,
+.zcampBaseViewDiv .btn-primary.active,
+.zcampBaseViewDiv .open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.zcampBaseViewDiv .btn-primary.disabled,
+.zcampBaseViewDiv .btn-primary.disabled:hover,
+.zcampBaseViewDiv .btn-primary.disabled:focus,
+.zcampBaseViewDiv .btn-primary.disabled:active,
+.zcampBaseViewDiv .btn-primary.disabled.active,
+.zcampBaseViewDiv .btn-primary[disabled],
+.zcampBaseViewDiv .btn-primary[disabled]:hover,
+.zcampBaseViewDiv .btn-primary[disabled]:focus,
+.zcampBaseViewDiv .btn-primary[disabled]:active,
+.zcampBaseViewDiv .btn-primary.active[disabled],
+.zcampBaseViewDiv fieldset[disabled] .btn-primary,
+.zcampBaseViewDiv fieldset[disabled] .btn-primary:hover,
+.zcampBaseViewDiv fieldset[disabled] .btn-primary:focus,
+.zcampBaseViewDiv fieldset[disabled] .btn-primary:active,
+.zcampBaseViewDiv fieldset[disabled] .btn-primary.active {
+  background-color: #1dc5a3;
+  border-color: #1dc5a3;
+}
+.zcampBaseViewDiv .btn-success {
+  background-color: #1c84c6;
+  border-color: #1c84c6;
+  color: #FFFFFF;
+}
+.zcampBaseViewDiv .btn-success:hover,
+.zcampBaseViewDiv .btn-success:focus,
+.zcampBaseViewDiv .btn-success:active,
+.zcampBaseViewDiv .btn-success.active,
+.zcampBaseViewDiv .open .dropdown-toggle.btn-success {
+  background-color: #1a7bb9;
+  border-color: #1a7bb9;
+  color: #FFFFFF;
+}
+.zcampBaseViewDiv .btn-success:active,
+.zcampBaseViewDiv .btn-success.active,
+.zcampBaseViewDiv .open .dropdown-toggle.btn-success {
+  background-image: none;
+}
+.zcampBaseViewDiv .btn-success.disabled,
+.zcampBaseViewDiv .btn-success.disabled:hover,
+.zcampBaseViewDiv .btn-success.disabled:focus,
+.zcampBaseViewDiv .btn-success.disabled:active,
+.zcampBaseViewDiv .btn-success.disabled.active,
+.zcampBaseViewDiv .btn-success[disabled],
+.zcampBaseViewDiv .btn-success[disabled]:hover,
+.zcampBaseViewDiv .btn-success[disabled]:focus,
+.zcampBaseViewDiv .btn-success[disabled]:active,
+.zcampBaseViewDiv .btn-success.active[disabled],
+.zcampBaseViewDiv fieldset[disabled] .btn-success,
+.zcampBaseViewDiv fieldset[disabled] .btn-success:hover,
+.zcampBaseViewDiv fieldset[disabled] .btn-success:focus,
+.zcampBaseViewDiv fieldset[disabled] .btn-success:active,
+.zcampBaseViewDiv fieldset[disabled] .btn-success.active {
+  background-color: #1f90d8;
+  border-color: #1f90d8;
+}
+.zcampBaseViewDiv .btn-info {
+  background-color: #23c6c8;
+  border-color: #23c6c8;
+  color: #FFFFFF;
+}
+.zcampBaseViewDiv .btn-info:hover,
+.zcampBaseViewDiv .btn-info:focus,
+.zcampBaseViewDiv .btn-info:active,
+.zcampBaseViewDiv .btn-info.active,
+.zcampBaseViewDiv .open .dropdown-toggle.btn-info {
+  background-color: #21b9bb;
+  border-color: #21b9bb;
+  color: #FFFFFF;
+}
+.zcampBaseViewDiv .btn-info:active,
+.zcampBaseViewDiv .btn-info.active,
+.zcampBaseViewDiv .open .dropdown-toggle.btn-info {
+  background-image: none;
+}
+.zcampBaseViewDiv .btn-info.disabled,
+.zcampBaseViewDiv .btn-info.disabled:hover,
+.zcampBaseViewDiv .btn-info.disabled:focus,
+.zcampBaseViewDiv .btn-info.disabled:active,
+.zcampBaseViewDiv .btn-info.disabled.active,
+.zcampBaseViewDiv .btn-info[disabled],
+.zcampBaseViewDiv .btn-info[disabled]:hover,
+.zcampBaseViewDiv .btn-info[disabled]:focus,
+.zcampBaseViewDiv .btn-info[disabled]:active,
+.zcampBaseViewDiv .btn-info.active[disabled],
+.zcampBaseViewDiv fieldset[disabled] .btn-info,
+.zcampBaseViewDiv fieldset[disabled] .btn-info:hover,
+.zcampBaseViewDiv fieldset[disabled] .btn-info:focus,
+.zcampBaseViewDiv fieldset[disabled] .btn-info:active,
+.zcampBaseViewDiv fieldset[disabled] .btn-info.active {
+  background-color: #26d7d9;
+  border-color: #26d7d9;
+}
+.zcampBaseViewDiv .btn-warning {
+  background-color: #f8ac59;
+  border-color: #f8ac59;
+  color: #FFFFFF;
+}
+.zcampBaseViewDiv .btn-warning:hover,
+.zcampBaseViewDiv .btn-warning:focus,
+.zcampBaseViewDiv .btn-warning:active,
+.zcampBaseViewDiv .btn-warning.active,
+.zcampBaseViewDiv .open .dropdown-toggle.btn-warning {
+  background-color: #f7a54a;
+  border-color: #f7a54a;
+  color: #FFFFFF;
+}
+.zcampBaseViewDiv .btn-warning:active,
+.zcampBaseViewDiv .btn-warning.active,
+.zcampBaseViewDiv .open .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+.zcampBaseViewDiv .btn-warning.disabled,
+.zcampBaseViewDiv .btn-warning.disabled:hover,
+.zcampBaseViewDiv .btn-warning.disabled:focus,
+.zcampBaseViewDiv .btn-warning.disabled:active,
+.zcampBaseViewDiv .btn-warning.disabled.active,
+.zcampBaseViewDiv .btn-warning[disabled],
+.zcampBaseViewDiv .btn-warning[disabled]:hover,
+.zcampBaseViewDiv .btn-warning[disabled]:focus,
+.zcampBaseViewDiv .btn-warning[disabled]:active,
+.zcampBaseViewDiv .btn-warning.active[disabled],
+.zcampBaseViewDiv fieldset[disabled] .btn-warning,
+.zcampBaseViewDiv fieldset[disabled] .btn-warning:hover,
+.zcampBaseViewDiv fieldset[disabled] .btn-warning:focus,
+.zcampBaseViewDiv fieldset[disabled] .btn-warning:active,
+.zcampBaseViewDiv fieldset[disabled] .btn-warning.active {
+  background-color: #f9b66d;
+  border-color: #f9b66d;
+}
+.zcampBaseViewDiv .btn-danger {
+  background-color: #ed5565;
+  border-color: #ed5565;
+  color: #FFFFFF;
+}
+.zcampBaseViewDiv .btn-danger:hover,
+.zcampBaseViewDiv .btn-danger:focus,
+.zcampBaseViewDiv .btn-danger:active,
+.zcampBaseViewDiv .btn-danger.active,
+.zcampBaseViewDiv .open .dropdown-toggle.btn-danger {
+  background-color: #ec4758;
+  border-color: #ec4758;
+  color: #FFFFFF;
+}
+.zcampBaseViewDiv .btn-danger:active,
+.zcampBaseViewDiv .btn-danger.active,
+.zcampBaseViewDiv .open .dropdown-toggle.btn-danger {
+  background-image: none;
+}
+.zcampBaseViewDiv .btn-danger.disabled,
+.zcampBaseViewDiv .btn-danger.disabled:hover,
+.zcampBaseViewDiv .btn-danger.disabled:focus,
+.zcampBaseViewDiv .btn-danger.disabled:active,
+.zcampBaseViewDiv .btn-danger.disabled.active,
+.zcampBaseViewDiv .btn-danger[disabled],
+.zcampBaseViewDiv .btn-danger[disabled]:hover,
+.zcampBaseViewDiv .btn-danger[disabled]:focus,
+.zcampBaseViewDiv .btn-danger[disabled]:active,
+.zcampBaseViewDiv .btn-danger.active[disabled],
+.zcampBaseViewDiv fieldset[disabled] .btn-danger,
+.zcampBaseViewDiv fieldset[disabled] .btn-danger:hover,
+.zcampBaseViewDiv fieldset[disabled] .btn-danger:focus,
+.zcampBaseViewDiv fieldset[disabled] .btn-danger:active,
+.zcampBaseViewDiv fieldset[disabled] .btn-danger.active {
+  background-color: #ef6776;
+  border-color: #ef6776;
+}
+.zcampBaseViewDiv .btn-link {
+  color: inherit;
+}
+.zcampBaseViewDiv .btn-link:hover,
+.zcampBaseViewDiv .btn-link:focus,
+.zcampBaseViewDiv .btn-link:active,
+.zcampBaseViewDiv .btn-link.active,
+.zcampBaseViewDiv .open .dropdown-toggle.btn-link {
+  color: #1ab394;
+  text-decoration: none;
+}
+.zcampBaseViewDiv .btn-link:active,
+.zcampBaseViewDiv .btn-link.active,
+.zcampBaseViewDiv .open .dropdown-toggle.btn-link {
+  background-image: none;
+}
+.zcampBaseViewDiv .btn-link.disabled,
+.zcampBaseViewDiv .btn-link.disabled:hover,
+.zcampBaseViewDiv .btn-link.disabled:focus,
+.zcampBaseViewDiv .btn-link.disabled:active,
+.zcampBaseViewDiv .btn-link.disabled.active,
+.zcampBaseViewDiv .btn-link[disabled],
+.zcampBaseViewDiv .btn-link[disabled]:hover,
+.zcampBaseViewDiv .btn-link[disabled]:focus,
+.zcampBaseViewDiv .btn-link[disabled]:active,
+.zcampBaseViewDiv .btn-link.active[disabled],
+.zcampBaseViewDiv fieldset[disabled] .btn-link,
+.zcampBaseViewDiv fieldset[disabled] .btn-link:hover,
+.zcampBaseViewDiv fieldset[disabled] .btn-link:focus,
+.zcampBaseViewDiv fieldset[disabled] .btn-link:active,
+.zcampBaseViewDiv fieldset[disabled] .btn-link.active {
+  color: #cacaca;
+}
+.zcampBaseViewDiv .btn-white {
+  color: inherit;
+  background: white;
+  border: 1px solid #e7eaec;
+}
+.zcampBaseViewDiv .btn-white:hover,
+.zcampBaseViewDiv .btn-white:focus,
+.zcampBaseViewDiv .btn-white:active,
+.zcampBaseViewDiv .btn-white.active,
+.zcampBaseViewDiv .open .dropdown-toggle.btn-white {
+  color: inherit;
+  border: 1px solid #d2d2d2;
+}
+.zcampBaseViewDiv .btn-white:active,
+.zcampBaseViewDiv .btn-white.active {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15) inset;
+}
+.zcampBaseViewDiv .btn-white:active,
+.zcampBaseViewDiv .btn-white.active,
+.zcampBaseViewDiv .open .dropdown-toggle.btn-white {
+  background-image: none;
+}
+.zcampBaseViewDiv .btn-white.disabled,
+.zcampBaseViewDiv .btn-white.disabled:hover,
+.zcampBaseViewDiv .btn-white.disabled:focus,
+.zcampBaseViewDiv .btn-white.disabled:active,
+.zcampBaseViewDiv .btn-white.disabled.active,
+.zcampBaseViewDiv .btn-white[disabled],
+.zcampBaseViewDiv .btn-white[disabled]:hover,
+.zcampBaseViewDiv .btn-white[disabled]:focus,
+.zcampBaseViewDiv .btn-white[disabled]:active,
+.zcampBaseViewDiv .btn-white.active[disabled],
+.zcampBaseViewDiv fieldset[disabled] .btn-white,
+.zcampBaseViewDiv fieldset[disabled] .btn-white:hover,
+.zcampBaseViewDiv fieldset[disabled] .btn-white:focus,
+.zcampBaseViewDiv fieldset[disabled] .btn-white:active,
+.zcampBaseViewDiv fieldset[disabled] .btn-white.active {
+  color: #cacaca;
+}
+.zcampBaseViewDiv .form-control,
+.zcampBaseViewDiv .form-control:focus,
+.zcampBaseViewDiv .has-error .form-control:focus,
+.zcampBaseViewDiv .has-success .form-control:focus,
+.zcampBaseViewDiv .has-warning .form-control:focus,
+.zcampBaseViewDiv .navbar-collapse,
+.zcampBaseViewDiv .navbar-form,
+.zcampBaseViewDiv .navbar-form-custom .form-control:focus,
+.zcampBaseViewDiv .navbar-form-custom .form-control:hover,
+.zcampBaseViewDiv .open .btn.dropdown-toggle,
+.zcampBaseViewDiv .panel,
+.zcampBaseViewDiv .popover,
+.zcampBaseViewDiv .progress,
+.zcampBaseViewDiv .progress-bar {
+  box-shadow: none;
+}
+.zcampBaseViewDiv .btn-outline {
+  color: inherit;
+  background-color: transparent;
+  transition: all .5s;
+}
+.zcampBaseViewDiv .btn-rounded {
+  border-radius: 50px;
+}
+.zcampBaseViewDiv .btn-large-dim {
+  width: 90px;
+  height: 90px;
+  font-size: 42px;
+}
+.zcampBaseViewDiv button.dim {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 6px;
+  margin-right: 10px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-bottom: 20px !important;
+}
+.zcampBaseViewDiv button.dim:active {
+  top: 3px;
+}
+.zcampBaseViewDiv button.btn-primary.dim {
+  box-shadow: inset 0px 0px 0px #16987e, 0px 5px 0px 0px #16987e, 0px 10px 5px #999999;
+}
+.zcampBaseViewDiv button.btn-primary.dim:active {
+  box-shadow: inset 0px 0px 0px #16987e, 0px 2px 0px 0px #16987e, 0px 5px 3px #999999;
+}
+.zcampBaseViewDiv button.btn-default.dim {
+  box-shadow: inset 0px 0px 0px #b3b3b3, 0px 5px 0px 0px #b3b3b3, 0px 10px 5px #999999;
+}
+.zcampBaseViewDiv button.btn-default.dim:active {
+  box-shadow: inset 0px 0px 0px #b3b3b3, 0px 2px 0px 0px #b3b3b3, 0px 5px 3px #999999;
+}
+.zcampBaseViewDiv button.btn-warning.dim {
+  box-shadow: inset 0px 0px 0px #f79d3c, 0px 5px 0px 0px #f79d3c, 0px 10px 5px #999999;
+}
+.zcampBaseViewDiv button.btn-warning.dim:active {
+  box-shadow: inset 0px 0px 0px #f79d3c, 0px 2px 0px 0px #f79d3c, 0px 5px 3px #999999;
+}
+.zcampBaseViewDiv button.btn-info.dim {
+  box-shadow: inset 0px 0px 0px #1eacae, 0px 5px 0px 0px #1eacae, 0px 10px 5px #999999;
+}
+.zcampBaseViewDiv button.btn-info.dim:active {
+  box-shadow: inset 0px 0px 0px #1eacae, 0px 2px 0px 0px #1eacae, 0px 5px 3px #999999;
+}
+.zcampBaseViewDiv button.btn-success.dim {
+  box-shadow: inset 0px 0px 0px #1872ab, 0px 5px 0px 0px #1872ab, 0px 10px 5px #999999;
+}
+.zcampBaseViewDiv button.btn-success.dim:active {
+  box-shadow: inset 0px 0px 0px #1872ab, 0px 2px 0px 0px #1872ab, 0px 5px 3px #999999;
+}
+.zcampBaseViewDiv button.btn-danger.dim {
+  box-shadow: inset 0px 0px 0px #ea394c, 0px 5px 0px 0px #ea394c, 0px 10px 5px #999999;
+}
+.zcampBaseViewDiv button.btn-danger.dim:active {
+  box-shadow: inset 0px 0px 0px #ea394c, 0px 2px 0px 0px #ea394c, 0px 5px 3px #999999;
+}
+.zcampBaseViewDiv button.dim:before {
+  font-size: 50px;
+  line-height: 1em;
+  font-weight: normal;
+  color: #fff;
+  display: block;
+  padding-top: 10px;
+}
+.zcampBaseViewDiv button.dim:active:before {
+  top: 7px;
+  font-size: 50px;
+}
+.zcampBaseViewDiv .show-grid [class^="col-"] {
+  padding: 10px 5px;
+}
+.zcampBaseViewDiv .selectAppImg {
+  width: 95%;
+  padding: 20px 5px 5px 5px;
+}
+.zcampBaseViewDiv .imgBorder {
+  border: 2px solid #ddd;
+  text-align: center;
+}
+.zcampBaseViewDiv .imgBorder span {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  padding: 0px 5px 0px 5px;
+  overflow: hidden;
+  display: block;
+}
+.zcampBaseViewDiv .imgBorderActive {
+  border: 2px solid #2FC7CA;
+}
+.zcampBaseViewDiv .wizard-modal-body {
+  padding: 0;
+}
+.zcampBaseViewDiv .wizard-modal-body form {
+  margin-bottom: 0px;
+}
+.zcampBaseViewDiv .wizard-modal-body .form-group {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.zcampBaseViewDiv .toast-loading-icondiv {
+  margin: 2px 0px 10px -37px;
+  position: absolute;
+}
+@media (min-width: 768px) {
+  .zcampBaseViewDiv .page-wrapper {
+    position: inherit;
+    margin: 0 0 0 220px;
+    min-height: 1200px;
+  }
+  .zcampBaseViewDiv .navbar-static-side {
+    z-index: 2001;
+    position: absolute;
+    width: 220px;
+  }
+  .zcampBaseViewDiv .navbar-top-links .dropdown-messages,
+  .zcampBaseViewDiv .navbar-top-links .dropdown-tasks,
+  .zcampBaseViewDiv .navbar-top-links .dropdown-alerts {
+    margin-left: auto;
+  }
+}
+@media (max-width: 768px) {
+  .zcampBaseViewDiv .page-wrapper {
+    position: inherit;
+    margin: 0 0 0 0px;
+    min-height: 1000px;
+  }
+  .zcampBaseViewDiv .body-small .navbar-static-side {
+    display: none;
+    z-index: 2001;
+    position: absolute;
+    width: 70px;
+  }
+  .zcampBaseViewDiv .body-small.mini-navbar .navbar-static-side {
+    display: block;
+  }
+  .zcampBaseViewDiv .lock-word {
+    display: none;
+  }
+  .zcampBaseViewDiv .navbar-form-custom {
+    display: none;
+  }
+  .zcampBaseViewDiv .navbar-header {
+    display: inline;
+    float: left;
+  }
+  .zcampBaseViewDiv .sidebard-panel {
+    z-index: 2;
+    position: relative;
+    width: auto;
+    min-height: 100% !important;
+  }
+  .zcampBaseViewDiv .sidebar-content .wrapper {
+    padding-right: 0px;
+    z-index: 1;
+  }
+  .zcampBaseViewDiv .fixed-sidebar.body-small .navbar-static-side {
+    display: none;
+    z-index: 2001;
+    position: fixed;
+    width: 220px;
+  }
+  .zcampBaseViewDiv .fixed-sidebar.body-small.mini-navbar .navbar-static-side {
+    display: block;
+  }
+  .zcampBaseViewDiv .ibox-tools {
+    float: none;
+    text-align: right;
+    display: block;
+  }
+}
+.zcampBaseViewDiv .wrapper-content {
+  padding: 10px 10px 10px;
+}
+.zcampBaseViewDiv .nav-header {
+  padding: 20px 10px 15px 10px;
+  background: white;
+}
+.zcampBaseViewDiv .profile-element {
+  border: 2px solid #D7D7D7;
+  border-radius: 10px;
+  background-color: #e7eaec;
+}
+.zcampBaseViewDiv .tomcatImg {
+  margin: auto;
+  display: block;
+  margin-top: 15px;
+  width: 100px;
+}
+.zcampBaseViewDiv .profile-element .clear {
+  text-align: center;
+  padding: 5px 0px;
+}
+.zcampBaseViewDiv .profile-element .clear {
+  display: block;
+  overflow: hidden;
+}
+.zcampBaseViewDiv .profile-element .block {
+  display: block;
+  padding: 5px;
+}
+.zcampBaseViewDiv .profile-element .font-bold {
+  font-weight: 600;
+}
+.zcampBaseViewDiv .font-bold {
+  font-size: 20px;
+}
+.zcampBaseViewDiv .logo-element {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  display: none;
+  padding: 18px 0;
+}
+.zcampBaseViewDiv .navbar-default .nav > li > a:hover,
+.zcampBaseViewDiv .navbar-default .nav > li > a:focus {
+  border-left: 4px solid #23b7e7;
+  color: #23b7e7;
+}
+.zcampBaseViewDiv .navbar-default .nav > li.active:hover,
+.zcampBaseViewDiv .navbar-default .nav > li.active:focus {
+  color: #23b7e7;
+  border-left: 0px;
+}
+.zcampBaseViewDiv .nav.navbar-top-links > li > a:hover,
+.zcampBaseViewDiv .nav.navbar-top-links > li > a:focus {
+  background-color: transparent;
+}
+.zcampBaseViewDiv .navbar {
+  border: 0;
+}
+.zcampBaseViewDiv .navbar-default {
+  border-color: #2f4050;
+}
+.zcampBaseViewDiv .navbar-top-links li {
+  display: inline-block;
+}
+.zcampBaseViewDiv .navbar-top-links li:last-child {
+  margin-right: 40px;
+}
+.zcampBaseViewDiv .page-wrapper {
+  padding: 0 15px;
+  min-height: 568px;
+  position: relative !important;
+}
+.zcampBaseViewDiv .dashboard-header {
+  border-top: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+.zcampBaseViewDiv .dashboard-header h2 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #000000;
+  font-family: "微软雅黑";
+}
+.zcampBaseViewDiv a {
+  cursor: pointer;
+}
+.zcampBaseViewDiv a:hover,
+.zcampBaseViewDiv a:focus {
+  text-decoration: none;
+}
+.zcampBaseViewDiv body.mini-navbar .navbar-static-side {
+  width: 70px;
+}
+.zcampBaseViewDiv body.mini-navbar .profile-element,
+.zcampBaseViewDiv body.mini-navbar .nav-label,
+.zcampBaseViewDiv body.mini-navbar .navbar-default .nav li a span {
+  display: none;
+}
+.zcampBaseViewDiv body.canvas-menu .profile-element {
+  display: block;
+}
+.zcampBaseViewDiv body:not(.fixed-sidebar):not(.canvas-menu).mini-navbar .nav-second-level {
+  display: none;
+}
+.zcampBaseViewDiv body.mini-navbar .navbar-default .nav > li > a {
+  font-size: 16px;
+}
+.zcampBaseViewDiv body.mini-navbar .logo-element {
+  display: block;
+}
+.zcampBaseViewDiv body.canvas-menu .logo-element {
+  display: none;
+}
+.zcampBaseViewDiv body.mini-navbar .nav-header {
+  padding: 0;
+  background-color: #1ab394;
+}
+.zcampBaseViewDiv body.canvas-menu .nav-header {
+  padding: 33px 25px;
+}
+.zcampBaseViewDiv body.mini-navbar .page-wrapper {
+  margin: 0 0 0 70px;
+}
+.zcampBaseViewDiv body.fixed-sidebar.mini-navbar .footer,
+.zcampBaseViewDiv body.canvas-menu.mini-navbar .footer {
+  margin: 0 0 0 0 !important;
+}
+.zcampBaseViewDiv body.canvas-menu.mini-navbar .page-wrapper,
+.zcampBaseViewDiv body.canvas-menu.mini-navbar .footer {
+  margin: 0 0 0 0;
+}
+.zcampBaseViewDiv .dashboard-header {
+  border-top: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+.zcampBaseViewDiv .white-bg {
+  background: #ECECEC;
+}
+.zcampBaseViewDiv .border-bottom {
+  border-bottom: 1px solid #DBDBDB !important;
+}
+.zcampBaseViewDiv .gray-bg {
+  background-color: #f3f3f4;
+}
+.zcampBaseViewDiv .white-bg {
+  background: #ECECEC;
+}
+.zcampBaseViewDiv .navy-bg {
+  background-color: #1ab394;
+  color: #ffffff;
+}
+.zcampBaseViewDiv .blue-bg {
+  background-color: #1c84c6;
+  color: #ffffff;
+}
+.zcampBaseViewDiv .lazur-bg {
+  background-color: #23c6c8;
+  color: #ffffff;
+}
+.zcampBaseViewDiv .yellow-bg {
+  background-color: #f8ac59;
+  color: #ffffff;
+}
+.zcampBaseViewDiv .red-bg {
+  background-color: #ed5565;
+  color: #ffffff;
+}
+.zcampBaseViewDiv .black-bg {
+  background-color: #262626;
+}
+.zcampBaseViewDiv .toast-top-right {
+  top: 55px !important;
+}
+.zcampBaseViewDiv {
+  @charset "UTF-8";
+  /***
+  NEW TODO Page
+  ***/
+  /* Cubic Bezier Transition */
+  /* RESPONSIVE MODE */
+}
+.zcampBaseViewDiv h1,
+.zcampBaseViewDiv h2,
+.zcampBaseViewDiv h3,
+.zcampBaseViewDiv h4,
+.zcampBaseViewDiv h5,
+.zcampBaseViewDiv h6 {
+  font-family: "微软雅黑", "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+.zcampBaseViewDiv body {
+  font-family: "微软雅黑", "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: white;
+  font-size: 13px;
+  color: #676a6c;
+  overflow-x: hidden;
+}
+.zcampBaseViewDiv body .ibox {
+  clear: both;
+  margin-bottom: 25px;
+  margin-top: 0;
+  padding: 0;
+}
+.zcampBaseViewDiv body .ibox:after,
+.zcampBaseViewDiv body .ibox:before {
+  display: table;
+}
+.zcampBaseViewDiv body .ibox.collapsed .ibox-content {
+  display: none;
+}
+.zcampBaseViewDiv body .ibox.collapsed .fa.fa-chevron-up:before {
+  content: "\f078";
+}
+.zcampBaseViewDiv body .ibox.collapsed .fa.fa-chevron-down:before {
+  content: "\f077";
+}
+.zcampBaseViewDiv body .ibox .open > .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+.zcampBaseViewDiv body .ibox .ibox-title {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #F7F7F7;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 4px 0px 0;
+  color: inherit;
+  margin-bottom: 0;
+  padding: 14px 15px 7px;
+  min-height: 48px;
+}
+.zcampBaseViewDiv body .ibox .ibox-title h5 {
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 0 0px;
+  padding: 0;
+  text-overflow: ellipsis;
+  float: left;
+}
+.zcampBaseViewDiv body .ibox .ibox-title .label {
+  float: left;
+  margin-left: 4px;
+}
+.zcampBaseViewDiv body .ibox .ibox-title .ibox-tools {
+  display: inline-block;
+  float: right;
+  margin-top: 0;
+  position: relative;
+  padding: 0;
+}
+.zcampBaseViewDiv body .ibox .ibox-title .ibox-tools a {
+  cursor: pointer;
+  margin-left: 5px;
+  color: #c4c4c4;
+}
+.zcampBaseViewDiv body .ibox .ibox-title .ibox-tools a.btn-primary {
+  color: #fff;
+}
+.zcampBaseViewDiv body .ibox .ibox-title .ibox-tools .dropdown-menu > li > a {
+  padding: 4px 10px;
+  font-size: 12px;
+}
+.zcampBaseViewDiv body .ibox .ibox-has-tool {
+  padding: 5px 5px 5px;
+}
+.zcampBaseViewDiv body .ibox .ibox-heading {
+  background-color: #f3f6fb;
+  border-bottom: none;
+}
+.zcampBaseViewDiv body .ibox .ibox-content {
+  background-color: #ffffff;
+  color: inherit;
+  padding: 0px;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 1px 0px;
+  clear: both;
+}
+.zcampBaseViewDiv .ztesoft-cmp-iconcolumn-img {
+  margin-top: -3px;
+  margin-bottom: -4px;
+  height: 16px;
+  width: 16px;
+  background-position: 0px 50%;
+  background-size: contain;
+  border: 0px;
+}
+.zcampBaseViewDiv .ui-multiselect-ip .ui-multiselect-choices li.search-choice > span {
+  width: 130px !important;
+  max-width: 130px !important;
+}
+.zcampBaseViewDiv .zcamp-wizard .title {
+  background-color: #fff;
+  background-image: none;
+  border: 0;
+  box-shadow: none;
+  filter: none;
+}
+.zcampBaseViewDiv .zcamp-wizard .title .number {
+  background-color: #3fc9d5;
+  color: #fff;
+  text-align: center !important;
+  padding: 6px 14px 13px;
+  margin-right: 10px;
+  height: 35px;
+  width: 35px;
+  border-radius: 50% !important;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.18);
+}
+.zcampBaseViewDiv .zcamp-wizard .title .desc {
+  color: #333;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+}
+.zcampBaseViewDiv .zcamp-wizard .zcamp-wizard-step {
+  padding-top: 10px;
+}
+.zcampBaseViewDiv .zcamp-wizard .zcamp-wizard-step .title {
+  margin-left: 15px;
+}
+.zcampBaseViewDiv .zcamp-wizard .zcamp-wizard-step form {
+  padding: 15px 20px 0px 0px;
+}
+.zcampBaseViewDiv .zcamp-wizard .zcamp-wizard-step .step-part {
+  padding: 15px 20px 0px 15px;
+}
+.zcampBaseViewDiv .zcamp-wizard .zcamp-wizard-step .step-part form {
+  padding-top: 0px;
+}
+.zcampBaseViewDiv .zcamp-wizard .zcamp-wizard-step h3 {
+  margin-left: 4px;
+  background-color: #E4DFDF;
+  margin-right: 4px;
+  padding: 10px 0px 10px 10px;
+}
+.zcampBaseViewDiv .zcamp-wizard .zcamp-wizard-step .stepSubTitle {
+  background-color: #E4E3E3;
+  padding: 5px 0px 5px 10px;
+}
+.zcampBaseViewDiv .zcamp-wizard .zcamp-wizard-step .filedTitle {
+  padding: 5px 0px 5px 10px;
+}
+.zcampBaseViewDiv .zcamp-wizard .zcamp-wizard-step .tdbreakall {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.zcampBaseViewDiv .zcamp-wizard .zcamp-wizard-actions {
+  padding: 20px 7px 20px 0px;
+}
+.zcampBaseViewDiv .zcamp-wizard > .right {
+  padding-left: 0;
+  padding-right: 10px;
+  text-align: right;
+}
+.zcampBaseViewDiv .zcamp-wizard .zcamp-form {
+  border-bottom: 1px solid #e7ecf1 !important;
+  min-height: 450px;
+}
+.zcampBaseViewDiv .attr-group-title {
+  background-color: #e4e3e3;
+  padding: 5px 0px 5px 10px;
+}
+.zcampBaseViewDiv .zcamp-tab-content {
+  padding-top: 0px;
+}
+.zcampBaseViewDiv .tableContainer .dataTables_paginate .paginate_button {
+  padding: 0 0 0 0;
+  margin-left: 0px;
+  border: 0px;
+}
+.zcampBaseViewDiv .tableContainer .dataTables_paginate .paginate_button.disabled {
+  border: 0px !important;
+}
+.zcampBaseViewDiv .tableContainer .dataTables_paginate .paginate_button:hover {
+  border: 0px !important;
+}
+.zcampBaseViewDiv .tableContainer .dataTables_length label {
+  font-size: 14px;
+  margin-top: 5px;
+}
+.zcampBaseViewDiv .tableContainer .dataTables_length select {
+  border-radius: 4px;
+}
+.zcampBaseViewDiv .blockUI.ui-widget-overlay {
+  background-color: #ffffff;
+}
+.zcampBaseViewDiv .blockUI.blockPage,
+.zcampBaseViewDiv .blockUI.blockElement {
+  top: 40%;
+  left: 50%;
+  background-color: #646464;
+  border-radius: 4px;
+  padding: 6px 12px;
+}
+.zcampBaseViewDiv .blockUI.blockPage > .loading,
+.zcampBaseViewDiv .blockUI.blockElement > .loading {
+  background: url('../../images/loading-mask.gif') 0 no-repeat;
+  width: 26px;
+  height: 20px;
+  float: left;
+  margin-top: 2px;
+  margin-left: 0px;
+}
+.zcampBaseViewDiv .blockUI.blockPage > .blockUI-content,
+.zcampBaseViewDiv .blockUI.blockElement > .blockUI-content {
+  padding-left: 12px;
+  padding-right: 0px;
+  font-size: large;
+  color: #ffffff;
+  line-height: 1.42857143;
+}
+.zcampBaseViewDiv .blockUI.blockPage > .blockUI-content.blockUI-iconOnly,
+.zcampBaseViewDiv .blockUI.blockElement > .blockUI-content.blockUI-iconOnly {
+  padding: 0;
+}
+.zcampBaseViewDiv .blockUI.blocking {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.zcampBaseViewDiv .breakall {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.zcampBaseViewDiv .step-select-cluster-tpl .tplImg {
+  padding: 5px 5px 5px 5px;
+  height: 80px;
+  width: 80px;
+}
+.zcampBaseViewDiv .tpl-grid .tpl-ctr {
+  margin: 10px 30px;
+  background-color: #F3F3F3;
+  overflow-y: auto;
+  padding: 10px 20px;
+}
+.zcampBaseViewDiv .tpl-grid .tpl-ctr .tpl-item {
+  position: relative;
+  float: left;
+  padding: 10px 5px;
+}
+@media (min-width: 768px) {
+  .zcampBaseViewDiv .tpl-grid .tpl-ctr .tpl-item {
+    width: 115px;
+  }
+}
+@media (min-width: 992px) {
+  .zcampBaseViewDiv .tpl-grid .tpl-ctr .tpl-item {
+    width: 122px;
+  }
+}
+@media (min-width: 1200px) {
+  .zcampBaseViewDiv .tpl-grid .tpl-ctr .tpl-item {
+    width: 117px;
+  }
+}
+.zcampBaseViewDiv .tpl-grid .tpl-ctr .tpl-item-desc {
+  width: 100%;
+  margin: 10px 5px;
+  position: relative;
+  float: left;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.zcampBaseViewDiv .tpl-grid .tpl-ctr .tpl-item-desc .TplDetailContent {
+  padding: 10px 5px;
+  background-color: #f5f8fd;
+  border-color: #8bb4e7;
+}
+.zcampBaseViewDiv .tpl-grid .tpl-ctr .tpl-item-desc .TplDetailContent .complexDetailContent {
+  min-height: 300px;
+  max-height: 500px;
+}
+.zcampBaseViewDiv .logpnl-body {
+  height: 400px;
+  overflow-y: auto;
+}
+.zcampBaseViewDiv .default-singleview {
+  min-height: 622px;
+}
+.zcampBaseViewDiv .disable-a {
+  pointer-events: none;
+  color: #afafaf;
+  cursor: default;
+}
+.zcampBaseViewDiv .tooltip-inner {
+  text-align: left;
+}
+.zcampBaseViewDiv .nav-container {
+  width: 500px;
+  float: left;
+}
+.zcampBaseViewDiv .dropdown-select .dropdown-menu {
+  font-family: "Open Sans", "Microsoft YaHei", sans-serif;
+}
+.zcampBaseViewDiv .readOnly-bg {
+  background: #eee !important;
+}
+.zcampBaseViewDiv .todo-main-header {
+  margin-top: -20px;
+}
+.zcampBaseViewDiv .todo-main-header > h3 {
+  font-weight: 400;
+  font-size: 22px;
+  margin-right: 1em;
+  display: inline-block;
+  color: #3b464f;
+}
+.zcampBaseViewDiv .todo-main-header > .todo-breadcrumb {
+  border-left: 1px solid;
+  border-color: #dae3eb;
+  padding: 0.5em 2em;
+  display: inline-block;
+  margin-top: 17px;
+}
+.zcampBaseViewDiv .todo-main-header > .todo-breadcrumb > li {
+  display: inline-block;
+  font-size: 11px;
+}
+.zcampBaseViewDiv .todo-main-header > .todo-breadcrumb > li > a {
+  color: #77838d;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.zcampBaseViewDiv .todo-main-header > .todo-breadcrumb > li > a:hover {
+  color: #337ab7;
+  text-decoration: none;
+}
+.zcampBaseViewDiv .todo-main-header > .todo-breadcrumb > li > .todo-active {
+  color: #49a7fa;
+}
+.zcampBaseViewDiv .todo-main-header > .todo-breadcrumb > li:before {
+  content: "•";
+  color: #b6c1cb;
+  margin: 0 1em;
+}
+.zcampBaseViewDiv .todo-main-header > .todo-breadcrumb > li:first-child:before {
+  content: "";
+  margin: 0;
+}
+.zcampBaseViewDiv .todo-container .todo-projects-container,
+.zcampBaseViewDiv .todo-container .todo-tasks-container {
+  background-color: #fff;
+  border: 1px solid;
+  border-color: #ebf0f5;
+}
+.zcampBaseViewDiv .todo-container .todo-projects-container {
+  padding: 0;
+}
+.zcampBaseViewDiv .todo-container .todo-projects-container > li {
+  list-style: none;
+  padding: 30px 20px;
+}
+.zcampBaseViewDiv .todo-container .todo-projects-divider {
+  height: 1px;
+  margin: 0;
+  background-color: #ebf0f5;
+}
+.zcampBaseViewDiv .todo-container .todo-tasks-container {
+  padding: 30px 20px;
+}
+.zcampBaseViewDiv .todo-container .todo-head {
+  border-bottom: 1px solid;
+  border-color: #ebf0f5;
+  padding-bottom: 20px;
+}
+.zcampBaseViewDiv .todo-container .todo-head > h3 {
+  margin-top: 0;
+  display: inline-block;
+  color: #4db3a4;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.zcampBaseViewDiv .todo-container .todo-head > p {
+  display: inline-block;
+  color: #9eacb4;
+  font-size: 12px;
+  margin-left: 2em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.zcampBaseViewDiv .todo-container .todo-head > button {
+  float: right;
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.zcampBaseViewDiv .todo-container .todo-projects-content,
+.zcampBaseViewDiv .todo-container .todo-tasks-content {
+  padding-left: 0;
+}
+.zcampBaseViewDiv .todo-container .todo-projects-item,
+.zcampBaseViewDiv .todo-container .todo-tasks-item {
+  list-style: none;
+  margin-left: 0;
+}
+.zcampBaseViewDiv .todo-container .todo-projects-item > h3 {
+  font-size: 14px;
+  color: #4e5a64;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.zcampBaseViewDiv .todo-container .todo-projects-item p {
+  color: #a0a9b4;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+.zcampBaseViewDiv .todo-container .todo-projects-item:last-child {
+  border-bottom: none;
+}
+.zcampBaseViewDiv .todo-container .todo-projects-item.todo-active {
+  background-color: #fafbfc;
+  position: relative;
+}
+.zcampBaseViewDiv .todo-container .todo-projects-item.todo-active > h3 {
+  color: #49a7fa;
+}
+.zcampBaseViewDiv .todo-container .todo-projects-item.todo-active:after {
+  content: " ";
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #fafbfc;
+  position: absolute;
+  right: -20px;
+  top: 10px;
+}
+.zcampBaseViewDiv .todo-container .todo-projects-item:hover {
+  background-color: #fafbfc;
+  cursor: pointer;
+}
+.zcampBaseViewDiv .todo-container .todo-projects-item > .todo-project-item-foot {
+  font-size: 12px;
+}
+.zcampBaseViewDiv .todo-container .todo-tasks-item {
+  padding: 30px 0;
+  border-bottom: 1px solid;
+  border-color: #ebf0f5;
+}
+.zcampBaseViewDiv .todo-container .todo-tasks-item > h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.3em;
+}
+.zcampBaseViewDiv .todo-container .todo-tasks-item > h4 > a {
+  color: #65717b;
+}
+.zcampBaseViewDiv .todo-container .todo-tasks-item > h4 > a:hover {
+  color: #49a7fa;
+  text-decoration: none;
+}
+.zcampBaseViewDiv .todo-container .todo-tasks-item > h4 > a:focus {
+  color: #65717b;
+  text-decoration: none;
+}
+.zcampBaseViewDiv .todo-container .todo-tasks-item > p {
+  margin: 0;
+  color: #9eacb4;
+}
+.zcampBaseViewDiv .todo-container .todo-tasks-item:last-child {
+  border-bottom: none;
+}
+.zcampBaseViewDiv .todo-add-button {
+  border: 1px solid;
+  border-color: #e0e6e9;
+  background-color: #fff;
+  color: #c1cbd1;
+  text-decoration: none;
+  padding: 0 0.4em;
+  font-size: 20px;
+  margin: -0.3em 0 0 0.5em;
+  float: right;
+}
+.zcampBaseViewDiv .todo-add-button:hover {
+  background-color: #4db3a4;
+  color: #fff;
+  text-decoration: none;
+}
+.zcampBaseViewDiv .todo-add-button:focus {
+  color: #c1cbd1;
+  text-decoration: none;
+}
+.zcampBaseViewDiv #todo-members-modal > .modal-dialog {
+  top: 20px;
+}
+.zcampBaseViewDiv #todo-members-modal .select-height {
+  height: 10em;
+}
+.zcampBaseViewDiv #todo-task-modal > .modal-dialog {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 60%;
+  margin: 0 auto;
+}
+.zcampBaseViewDiv #todo-task-modal > .modal-dialog .modal-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow: auto;
+}
+.zcampBaseViewDiv #todo-task-modal > .modal-dialog .modal-content .todo-task-modal-title {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 2em;
+}
+.zcampBaseViewDiv #todo-task-modal > .modal-dialog .modal-content .todo-task-due {
+  margin-left: 1em;
+  font-weight: 600;
+  color: #4db3a4;
+  width: 150px !important;
+}
+.zcampBaseViewDiv #todo-task-modal > .modal-dialog .modal-content .todo-task-assign {
+  margin-left: 1em;
+  border: 1px solid;
+  border-color: #ccc;
+  padding: 6px 10px;
+  font-weight: 600;
+  color: #4db3a4;
+  text-transform: uppercase;
+}
+.zcampBaseViewDiv #todo-task-modal > .modal-dialog .modal-content .todo-task-assign:hover,
+.zcampBaseViewDiv #todo-task-modal > .modal-dialog .modal-content .todo-task-assign:focus {
+  text-decoration: none;
+}
+.zcampBaseViewDiv #todo-task-modal > .modal-dialog .modal-content > .todo-task-modal-body > .todo-task-modal-bg {
+  background-color: #f7f9fa;
+  padding: 20px;
+}
+.zcampBaseViewDiv #todo-task-modal > .modal-dialog .modal-content > .todo-task-modal-body > h3 {
+  margin: 15px 0;
+  font-size: 20px;
+  color: #4e5a64;
+  font-weight: 600;
+}
+.zcampBaseViewDiv #todo-task-modal > .modal-dialog .modal-content > .todo-task-modal-body > p {
+  font-size: 15px;
+  color: #8f9ea6;
+  line-height: 24px;
+}
+.zcampBaseViewDiv #todo-task-modal > .modal-dialog .modal-content > .todo-task-modal-body > h4 {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #9eacb4;
+  margin-top: 25px;
+}
+.zcampBaseViewDiv #todo-task-modal > .modal-dialog .modal-content > .todo-task-modal-body > h4 > .todo-add-button {
+  float: none;
+}
+.zcampBaseViewDiv #todo-task-modal > .modal-dialog .modal-content > .todo-task-modal-body > .todo-task-file {
+  color: #49a7fa;
+  font-size: 13px;
+}
+.zcampBaseViewDiv #todo-task-modal > .modal-dialog .modal-content > .todo-task-modal-body > .todo-task-file > i {
+  margin-right: 0.5em;
+}
+.zcampBaseViewDiv #todo-task-modal > .modal-dialog .modal-content > .todo-task-modal-body > .todo-task-file > .todo-remove-file {
+  color: #9eacb4;
+  margin-left: 0.5em;
+}
+.zcampBaseViewDiv #todo-task-modal > .modal-dialog .modal-content > .todo-task-modal-body > .todo-task-file > .todo-remove-file:hover {
+  color: #4db3a4;
+  cursor: pointer;
+}
+.zcampBaseViewDiv .todo-inline {
+  display: inline-block;
+}
+.zcampBaseViewDiv .todo-float-r {
+  float: right;
+}
+.zcampBaseViewDiv .todo-bold {
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.zcampBaseViewDiv .todo-padding-b-0 {
+  padding-bottom: 0 !important;
+}
+.zcampBaseViewDiv .todo-grey {
+  color: #9eacb4;
+}
+.zcampBaseViewDiv .todo-red {
+  color: #d39790 !important;
+}
+.zcampBaseViewDiv .todo-green {
+  color: #4db3a4;
+}
+@media (max-width: 1199px) {
+  .zcampBaseViewDiv .todo-head > p {
+    display: block;
+    margin-left: 0 !important;
+  }
+}
+@media (max-width: 991px) {
+  .zcampBaseViewDiv {
+    /* 991px */
+  }
+  .zcampBaseViewDiv #todo-task-modal > .modal-dialog {
+    width: 95%;
+  }
+  .zcampBaseViewDiv .todo-active:after {
+    border: none !important;
+  }
+}
+@media (max-width: 480px) {
+  .zcampBaseViewDiv .todo-task-modal-title {
+    margin-left: 0 !important;
+    margin-top: 1em;
+    display: block !important;
+  }
+  .zcampBaseViewDiv .todo-tasks-container .todo-head > p {
+    margin-left: 0 !important;
+    margin-top: 1em;
+  }
+}
+.zcampBaseViewDiv .todo-head .actions {
+  float: right;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+.zcampBaseViewDiv .todo-head .actions .btn {
+  height: 27px;
+  width: 27px;
+  padding: 4px 6px 2px 6px;
+}
+.zcampBaseViewDiv td.td-input {
+  padding: 3px 5px !important;
+}
+.zcampBaseViewDiv .fixdatatable td.fixtd {
+  padding: 8px 18px !important;
+}
+.zcampBaseViewDiv .tab-close {
+  position: absolute !important;
+  top: -5px;
+  right: -5px;
+  padding: 0px !important;
+  width: 20px;
+  height: 20px;
+  cursor: pointer !important;
+  box-shadow: none;
+}
+.zcampBaseViewDiv .tab-close .tab-close-icon {
+  line-height: 1px;
+  font-size: 10px;
+  position: absolute;
+  top: 10px;
+  right: 4px;
+}
+.zcampBaseViewDiv td.details-control {
+  background: url('../../images/details_open.png') no-repeat center center;
+  cursor: pointer;
+}
+.zcampBaseViewDiv tr.shown td.details-control {
+  background: url('../../images/details_close.png') no-repeat center center;
+}
+.zcampBaseViewDiv .datatable-detail .fixdatatable td.fixtd {
+  padding: 8px 10px !important;
+}
+.zcampBaseViewDiv .plandetail-cluster {
+  margin-top: 10px;
+}
+.zcampBaseViewDiv .plandetail-cluster .plandetail-cluster-field {
+  height: 34px;
+  line-height: 34px;
+}
+.zcampBaseViewDiv .plandetail-tplrole-ctr {
+  padding: 0px;
+}
+.zcampBaseViewDiv .plandetail-tplrole-ctr .plandetail-tplrole-attr,
+.zcampBaseViewDiv .plandetail-tplrole-ctr .plandetail-tplrole-attr-label {
+  min-height: 34px;
+  line-height: 34px;
+}
+.zcampBaseViewDiv .plandetail-tplrole-ctr .plandetail-tplrole-attr-label {
+  padding-left: 25px;
+}
+.zcampBaseViewDiv .plandetail-tplrole-ctr .plandetail-tplrole-host-ul {
+  padding-left: 15px;
+}
+.zcampBaseViewDiv .plandetail-tplrole-ctr .plandetail-tplrole-host-ul li {
+  list-style-type: none;
+  height: 34px;
+  line-height: 34px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.zcampBaseViewDiv .panel-md {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.18) !important;
+}
+.zcampBaseViewDiv .panel-heading-x {
+  height: 33px;
+}
+.zcampBaseViewDiv .panel-heading-x .panel-title-x {
+  float: left;
+}
+.zcampBaseViewDiv .panel-heading-x .panel-title-x .panel-title-h3 {
+  margin: 0px !important;
+}
+.zcampBaseViewDiv .panel-heading-x .panel-action-x {
+  float: right;
+  margin-top: -3px;
+}
+.zcampBaseViewDiv .ui-multiselect-readonly {
+  background-color: #eeeeee;
+}
+.zcampBaseViewDiv .panel-body-iframe {
+  padding: 0px !important;
+}
+.zcampBaseViewDiv .page-header .page-header-menu .page-logo {
+  float: left;
+}
+.zcampBaseViewDiv .page-header .page-header-menu .top-menu {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+.zcampBaseViewDiv .page-header .page-header-menu .top-menu .navbar-nav {
+  padding: 0;
+  margin-right: 20px;
+  display: block;
+}
+.zcampBaseViewDiv .page-header .page-header-menu .top-menu .navbar-nav > li.dropdown {
+  margin: 0;
+  padding: 0 4px;
+  height: 46px;
+  display: inline-block;
+}
+.zcampBaseViewDiv .page-header .page-header-menu .top-menu .navbar-nav > li.dropdown > .dropdown-toggle > img {
+  float: left;
+  margin-top: -5px;
+  margin-right: 5px;
+  height: 29px;
+  display: inline-block;
+}
+.zcampBaseViewDiv .page-header .page-header-menu .top-menu .navbar-nav > li.dropdown > .dropdown-toggle > i {
+  color: #c6cfda;
+}
+.zcampBaseViewDiv .page-header .page-header-menu .top-menu .navbar-nav > li.dropdown > .dropdown-toggle:hover {
+  color: #ffffff;
+  background: #55616f !important;
+}
+.zcampBaseViewDiv .page-header .page-header-menu .top-menu .navbar-nav > li.dropdown.open .dropdown-toggle {
+  background: #55616f;
+}
+.zcampBaseViewDiv .page-header .page-header-menu .top-menu .navbar-nav > li.dropdown .dropdown-menu {
+  z-index: 9996;
+  margin-top: 5px;
+  margin-right: 7px;
+  font-family: "Open Sans", "Microsoft YaHei", sans-serif;
+}
+.zcampBaseViewDiv .page-header .page-header-menu .top-menu .navbar-nav > li.dropdown .dropdown-menu:before {
+  position: absolute;
+  top: -7px;
+  right: 9px;
+  display: inline-block !important;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #eee;
+  border-left: 7px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  content: '';
+}
+.zcampBaseViewDiv .page-header .page-header-menu .top-menu .navbar-nav > li.dropdown .dropdown-menu:after {
+  position: absolute;
+  top: -7px;
+  right: 10px;
+  display: inline-block !important;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #fff;
+  border-left: 7px solid transparent;
+  content: '';
+}
+.zcampBaseViewDiv .page-header .page-header-menu .top-menu .navbar-nav > li.dropdown-user > .dropdown-toggle > .username {
+  color: #BCC2CB;
+}
+.zcampBaseViewDiv .page-header .page-header-menu .top-menu .navbar-nav > li.dropdown-language > .dropdown-toggle > .languagename {
+  color: #BCC2CB;
+}
+.zcampBaseViewDiv .page-header .page-header-menu .top-menu .navbar-nav > li.dropdown-language > .dropdown-menu {
+  min-width: 100px;
+}
+.zcampBaseViewDiv .page-header .page-header-menu .top-menu .navbar-nav > li.dropdown-language > .dropdown-menu > li > a.cur-language {
+  font-weight: bold;
+}
+.zcampBaseViewDiv .page-header .page-header-menu .top-menu .navbar-nav > li.dropdown-quick-sidebar-toggler {
+  padding-right: 0;
+}
+.zcampBaseViewDiv .page-header .page-header-menu .top-menu .navbar-nav > li.dropdown-quick-sidebar-toggler .dropdown-toggle {
+  padding: 15px 10px 15px !important;
+  font-size: 17px;
+}
+.zcampBaseViewDiv .profile-nav {
+  margin-top: -30px;
+  height: 30px;
+}
+.zcampBaseViewDiv .profile-nav .btn-nav-actions {
+  margin-left: 10px;
+  margin-top: 10px;
+  position: absolute;
+}
+.zcampBaseViewDiv .btn-nav-actions {
+  float: left;
+}
+.zcampBaseViewDiv .btn-nav {
+  height: 27px;
+  width: 27px;
+  float: left;
+  padding-top: 5px;
+  margin-top: -4px;
+  margin-right: 5px;
+  box-shadow: none;
+}
+.zcampBaseViewDiv .li-a-font-bold {
+  font-weight: bold !important;
+}
+.zcampBaseViewDiv .spinner-fix .btn-stepper {
+  padding: 0 11px;
+}
+.zcampBaseViewDiv .label-cluster-start {
+  background-color: #1ab394;
+}
+.zcampBaseViewDiv .form-group-correct {
+  margin-bottom: 0px;
+}
+.zcampBaseViewDiv {
+  /***
+   * New Profile Page
+   **/
+  /* PROFILE SIDEBAR */
+  /* PROFILE SIDEBAR BLOCK */
+  /* END PROFILE SIDEBAR */
+  /* RESPONSIVE MODE */
+}
+.zcampBaseViewDiv .profile-sidebar {
+  float: left;
+  width: 240px;
+  margin-right: 20px;
+}
+.zcampBaseViewDiv .profile-content {
+  overflow: hidden;
+}
+.zcampBaseViewDiv .profile-sidebar-portlet {
+  padding: 30px 0 0 0 !important;
+}
+.zcampBaseViewDiv .profile-block-pic img {
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+}
+.zcampBaseViewDiv .profile-block-title {
+  text-align: center;
+  margin-top: 20px;
+}
+.zcampBaseViewDiv .profile-block-title-name {
+  color: #5a7391;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.zcampBaseViewDiv .profile-block-title-desc {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 13px;
+  font-weight: 800;
+  margin-bottom: 7px;
+}
+.zcampBaseViewDiv .profile-block-buttons {
+  text-align: center;
+  margin-top: 10px;
+}
+.zcampBaseViewDiv .profile-block-buttons .btn {
+  margin-right: 5px;
+}
+.zcampBaseViewDiv .profile-block-buttons .btn:last-child {
+  margin-right: 0;
+}
+.zcampBaseViewDiv .profile-block-buttons button {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+}
+.zcampBaseViewDiv .profile-sidebar-menu {
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+.zcampBaseViewDiv .profile-sidebar-menu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+.zcampBaseViewDiv .profile-sidebar-menu ul li:last-child {
+  border-bottom: none;
+}
+.zcampBaseViewDiv .profile-sidebar-menu ul li a {
+  color: #93a3b5;
+  font-size: 16px;
+  font-weight: 400;
+}
+.zcampBaseViewDiv .profile-sidebar-menu ul li a i {
+  margin-right: 8px;
+  font-size: 16px;
+}
+.zcampBaseViewDiv .profile-sidebar-menu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1;
+}
+.zcampBaseViewDiv .profile-sidebar-menu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+@media (max-width: 991px) {
+  .zcampBaseViewDiv {
+    /* 991px */
+    /* 991px */
+  }
+  .zcampBaseViewDiv .profile-sidebar {
+    float: none;
+    width: 100% !important;
+    margin: 0;
+  }
+  .zcampBaseViewDiv .profile-sidebar > .portlet {
+    margin-bottom: 20px;
+  }
+  .zcampBaseViewDiv .profile-content {
+    overflow: visible;
+  }
+}
+.zcampBaseViewDiv {
+  /* 下面为多段进度条 */
+  /* 修改按钮样式 */
+  /* 虚线 */
+}
+.zcampBaseViewDiv .ztex-progress {
+  position: relative;
+  border-style: solid;
+  overflow: hidden;
+}
+.zcampBaseViewDiv .ztex-progress-bar {
+  overflow: hidden;
+  position: absolute;
+  width: 0;
+  height: 100%;
+}
+.zcampBaseViewDiv .ztex-progress-text {
+  overflow: hidden;
+  position: absolute;
+}
+.zcampBaseViewDiv .ztex-progress-default {
+  background-color: #bfbebe;
+  /*空进度条的底色*/
+  height: 20px;
+  border-width: 0px;
+  /*  border-color: #6594cf;         进度条边框 */
+}
+.zcampBaseViewDiv .ztex-progress-fail {
+  background-color: #B10E0E;
+  /*失败的进度条底色*/
+}
+.zcampBaseViewDiv .x-content-box .ztex-progress-default {
+  height: 18px;
+}
+.zcampBaseViewDiv .ztex-progress-default .ztex-progress-bar-default {
+  background-image: none;
+  background-color: #9595e7;
+  /* 进度颜色 */
+}
+.zcampBaseViewDiv .ztex-progress-default .ztex-progress-text {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  line-height: 18px;
+}
+.zcampBaseViewDiv .ztex-progress-default .ztex-progress-text-back {
+  color: #ffffff;
+  line-height: 18px;
+}
+.zcampBaseViewDiv .ztex-progress-multistage {
+  position: relative;
+  overflow: hidden;
+  background-color: #e9f2f7;
+  font-size: 0;
+}
+.zcampBaseViewDiv .ztex-progress-multistage-bg {
+  background-color: #bfbebe;
+  /*多段进度条的进度底色*/
+  border-style: solid;
+  border-width: 0px;
+}
+.zcampBaseViewDiv .ztex-progress-multistage-stages {
+  display: inline-block;
+  width: 100%;
+}
+.zcampBaseViewDiv .ztex-progress-multistage-stage {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.zcampBaseViewDiv .ztex-progress-multistage-stage-move {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.zcampBaseViewDiv .ztex-progress-multistage-stage-active {
+  background-color: rgba(163, 175, 182, 0.5);
+}
+.zcampBaseViewDiv .ztex-progress-multistage-sp {
+  width: 2px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #ffffff;
+}
+.zcampBaseViewDiv .ztex-progress-multistage-text {
+  padding-right: 2px;
+  font-size: 12px;
+  line-height: 30px;
+  padding-left: 5px;
+}
+.zcampBaseViewDiv .ztex-progress-multistage-bar {
+  position: absolute;
+  top: 0px;
+  background-color: #9595e7;
+  /*多段进度条的进度颜色 */
+}
+.zcampBaseViewDiv .ztex-progress-multistage-text span {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: absolute;
+  left: 5px;
+  right: 20px;
+  overflow: hidden;
+}
+.zcampBaseViewDiv .ztex-progress-multistage-text img {
+  margin-bottom: -3px;
+  margin-left: 3px;
+  height: 16px;
+  width: 16px;
+  top: 65%;
+  position: absolute;
+  right: 4px;
+}
+.zcampBaseViewDiv .ztex-progress-multistage-success {
+  background-image: url(../../images/progress/success.png);
+}
+.zcampBaseViewDiv .ztex-progress-multistage-fail {
+  background-image: url(../../images/progress/fail.png);
+}
+.zcampBaseViewDiv .ztex-progress-multistage-processing {
+  background-image: url(../../images/progress/processing.gif);
+  background-size: contain;
+}
+.zcampBaseViewDiv .ztex-progress-container {
+  border-top: 1px solid #99bce8;
+}
+.zcampBaseViewDiv .ztex-progress-container .x-btn-default-small {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0px;
+  border-width: 0px;
+  border-style: solid;
+  background-image: none;
+  background-color: #7b7be9;
+}
+.zcampBaseViewDiv .ztex-progress-container .x-btn-default-small-over {
+  border-color: #b0ccf2;
+  background-image: none;
+  background-color: #9898ea;
+}
+.zcampBaseViewDiv .ztex-progress-container .x-btn-default-small-pressed {
+  border-color: #41419c;
+  background-image: none;
+  background-color: #6262d0;
+}
+.zcampBaseViewDiv .ztex-progress-container .x-btn-inner {
+  color: white;
+}
+.zcampBaseViewDiv .ztex-progress-container-border {
+  border-top: 1px dashed #96989a;
+}
+.zcampBaseViewDiv .ztesoft-progressx {
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.zcampBaseViewDiv .ztesoft-progressx-label {
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: inherit;
+  font-size: 15px;
+}
+.zcampBaseViewDiv .ztesoft-progressx-total {
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.zcampBaseViewDiv .ztesoft-progressx-total .text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding-right: 40px;
+}
+.zcampBaseViewDiv .ztree li a.curSelectedNode {
+  background-color: transparent;
+  color: white;
+}
+.zcampBaseViewDiv .stencilbox-ctr .glyphicon-triangle-right,
+.zcampBaseViewDiv .stencilbox-ctr .glyphicon-triangle-bottom {
+    font-family:"iconfont" !important;
+    width: 13px;
+    height: 13px;
+    position: relative;
+}
+.zcampBaseViewDiv .stencilbox-ctr .glyphicon-triangle-right:before {
+    content: "\f040";
+    position: absolute;
+    top: -1px;
+}
+.zcampBaseViewDiv .stencilbox-ctr .glyphicon-triangle-bottom:before {
+    content: "\f042";
+    font-size: 16px;
+    position: absolute;
+    top: -2px;
+}
+.zcampBaseViewDiv .ztree li {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.zcampBaseViewDiv .ztree li:nth-child(2n+1) {
+  padding-right: 5px;
+}
+.zcampBaseViewDiv .ztree li:nth-child(2n) {
+  padding-left: 5px;
+}
+.zcampBaseViewDiv .ztree li > div {
+  cursor: move;
+}
+.zcampBaseViewDiv .ztree li span {
+  display: block;
+  line-height: 20px;
+  color: #5c5c5c;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.zcampBaseViewDiv .ztree li span.button {
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  margin: 0 auto 5px;
+}
+.zcampBaseViewDiv .ztree li a:hover:after, .ztree li a.curSelectedNode:after { display: none }
+.zcampBaseViewDiv .main-header nav {
+  border: 0;
+  background: #4C4C4C;
+}
+.zcampBaseViewDiv .main-header nav li a {
+  color: #474747;
+  font-weight: 600;
+  padding: 14px 20px 14px 25px;
+  background: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+.zcampBaseViewDiv .main-header nav .navbar-top-links li {
+  display: inline-block;
+}
+.zcampBaseViewDiv .main-header nav .navbar-top-links li:last-child {
+  margin-right: 40px;
+}
+.zcampBaseViewDiv .main-header nav .navbar-top-links li a {
+  color: #999c9e;
+  font-size: 14px;
+}
+.zcampBaseViewDiv .main-header nav .navbar-top-links li a i {
+  margin-right: 6px;
+}
+.zcampBaseViewDiv .main-header nav .navbar-top-links li .black-bg {
+  background: #4C4C4C;
+  padding: 20px 10px;
+  min-height: 50px;
+}
+.zcampBaseViewDiv .main-header nav .navbar-top-links .dropdown-menu {
+  margin-top: 0;
+  border: medium none;
+  box-shadow: 0 0 3px rgba(86, 96, 117, 0.7);
+  float: left;
+  font-size: 12px;
+  list-style: none outside none;
+  padding: 0;
+  position: absolute;
+  text-shadow: none;
+  top: 100%;
+  z-index: 1000;
+  min-width: 110px;
+  border-radius: 0;
+  right: 0;
+}
+.zcampBaseViewDiv .main-header nav .navbar-top-links .dropdown-menu li {
+  display: block;
+}
+.zcampBaseViewDiv .main-header nav .navbar-top-links .dropdown-menu li:last-child {
+  margin-right: 0;
+}
+.zcampBaseViewDiv .main-header nav .navbar-top-links .dropdown-menu li a {
+  padding: 3px 20px;
+  min-height: 0;
+  color: inherit;
+  line-height: 25px;
+  text-align: left;
+  font-weight: normal;
+}
+.zcampBaseViewDiv .HomeView .docker-status-container .portlet-body {
+  height: 200px;
+}
+.zcampBaseViewDiv .HomeView .resource-watch-container .portlet-body {
+  height: 200px;
+}
+.zcampBaseViewDiv .HomeView .app-status-container .portlet-body {
+  height: 512px;
+}
+.zcampBaseViewDiv .HomeView .todo-list-container .portlet-body {
+  height: 200px;
+}
+.zcampBaseViewDiv .AppListMainView .echarts {
+  height: 240px;
+}
+.zcampBaseViewDiv .AppListMainView .echarts-pie {
+  padding: 0 30px 0 0;
+}
+.zcampBaseViewDiv .CreateAppView .wasAppImg {
+  width: 86%;
+  padding: 5px 5px 5px 5px;
+}
+.zcampBaseViewDiv .CreateAppView .webLogicAppImg {
+  width: 95%;
+  padding: 40px 5px 20px 5px;
+}
+.zcampBaseViewDiv .CreateServiceView .tdImg {
+  width: 50px;
+  height: 50px;
+}
+.zcampBaseViewDiv .ProVersionMgrView td.tdColor i {
+  color: #1BBC9B;
+}
+.zcampBaseViewDiv .ProVersionMgrDetailView td.tdColor i {
+  color: #1BBC9B;
+}
+.zcampBaseViewDiv .ProVersionMgrDetailView td.tdFile {
+  padding-left: 25px;
+}
+.zcampBaseViewDiv .ProVersionMgrDetailView td.tdFile i {
+  color: #1BBC9B;
+}
+.zcampBaseViewDiv .command-combo {
+  width: 100%;
+  border: 1px solid #cccccc;
+}
+.zcampBaseViewDiv .command-combo.n-invalid {
+  border: 1px solid #a94442;
+}
+.zcampBaseViewDiv .command-combo .ui-xbox-add-btn {
+  color: #555555;
+  background-color: #f0f0f0;
+  font-size: 15px;
+  padding: 7px 11px;
+  border: 1px solid #cccccc;
+}
+.zcampBaseViewDiv .command-combo .ui-xbox-btn {
+  padding-right: 34px;
+  font-weight: normal;
+  text-transform: none;
+  color: #555555;
+  cursor: pointer;
+  font-size: 13px;
+}
+.zcampBaseViewDiv .command-combo .ui-xbox-btn:hover {
+  padding-right: 34px;
+}
+.zcampBaseViewDiv .command-combo .ui-xbox-btn:hover > div.xboxRemover {
+  display: block;
+}
+.zcampBaseViewDiv .command-combo .ui-xbox-btn > div.xboxRemover {
+  display: none;
+}
+.zcampBaseViewDiv .command-combo .ui-xbox-input {
+  background-color: #FAFAFA;
+  float: left;
+  border: none;
+}
+.zcampBaseViewDiv .command-combo .ui-xbox-input.n-invalid {
+  border: 1px solid #a94442;
+}
+.zcampBaseViewDiv .command-combo .up-pointer {
+  position: absolute;
+  display: none;
+  width: 20px;
+  height: 13px;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpBNTZENjE2QzNGNEUxMUU1QUJGMUY3MkI0RjA5ODgwRiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpBNTZENjE2RDNGNEUxMUU1QUJGMUY3MkI0RjA5ODgwRiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkE1NkMzN0ZGM0Y0RTExRTVBQkYxRjcyQjRGMDk4ODBGIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkE1NkMzODAwM0Y0RTExRTVBQkYxRjcyQjRGMDk4ODBGIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+7GMfGgAAAHFJREFUeNqs07sJwDAMBFDJC7jy/oPZE8iVJ7igQEKKfE5BBy4k8GsOKQDJTJHkUOAYA2mgY7VWGi0M1loTGvVS7l7vHWaGa3z2/dOfvWAWY9EQxqBh7Av9hb2h6gsv52gzmjmnrLXOWZF8e+mntwkwAIW5fjqrNL2kAAAAAElFTkSuQmCC") no-repeat;
+}
+.zcampBaseViewDiv .command-combo .extraPanel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.26);
+  background-clip: padding-box;
+}
+.zcampBaseViewDiv .command-combo .ui-xbox-remove {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  z-index: 1002;
+  color: #cccccc;
+  font-size: 20px;
+  display: none;
+  cursor: pointer;
+}
+.zcampBaseViewDiv .process-editor-toolbar .btn {
+  border: transparent;
+}
+.zcampBaseViewDiv .t-icon {
+  background: url("img/operate-icon.png");
+  background-size: 500px 16px;
+  width: 18px;
+  height: 18px;
+  display: block;
+  margin: 1px;
+}
+.zcampBaseViewDiv .t-toolbar-default {
+  background-position: -18px 0px;
+}
+.zcampBaseViewDiv .t-toolbar-rectangle_selection {
+  background-position: -296px 0px;
+}
+
+.zcampBaseViewDiv .t-toolbar-zoomin {
+  background-position: -425px 0px;
+}
+.zcampBaseViewDiv .t-toolbar-zoomout {
+  background-position: -444px 0px;
+}
+.zcampBaseViewDiv .t-toolbar-zoomreset {
+  background-position: -462px 0px;
+}
+
+.zcampBaseViewDiv .t-toolbar-edge {
+  background-position: -74px 0px;
+}
+.zcampBaseViewDiv .t-toolbar-edge_VH {
+  background-position: -55px 0px;
+}
+.zcampBaseViewDiv .t-toolbar-curve {
+  background-position: -482px 0px;
+}
+.zcampBaseViewDiv .t-toolbar-json {
+  background-position: -111px 0px;
+}
+

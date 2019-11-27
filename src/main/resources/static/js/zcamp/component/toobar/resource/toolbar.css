@@ -1,0 +1,10 @@
+
+.zcampBaseViewDiv .toolbarRootDiv {
+    padding: 4px 5px;
+    border-color: #e3e3e3;
+    border-width: 1px;
+}
+
+.zcampBaseViewDiv .toolbarRootDiv .btn {
+    margin-right: 4px;
+}

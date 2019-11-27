@@ -1,0 +1,13 @@
+<div class="simple-collapse-item {{name}} {{#ifCond visible '==' false}}hidden{{/ifCond}}">
+    {{#if needAnchor}}<a class="anchor" name="{{anchorName}}"/>{{/if}}
+    <div class="simple-collapse-header" {{#if isExpanded}}aria-expanded="true"{{else}}aria-expanded="false"{{/if}} >
+        <i class="arrow glyphicon glyphicon-menu-left"></i>
+        <div class="common-title">
+            <span class="title-span" style="max-width: 650px;">{{title}}</span>
+            <span class="title-intro"></span>
+        </div>
+    </div>
+    <div class="simple-collapse-content {{#if isExpanded}}simple-collapse-content-active{{else}}simple-collapse-content-inactive{{/if}} ">
+        <div class="simple-collapse-content-box {{name}}"></div>
+    </div>
+</div>

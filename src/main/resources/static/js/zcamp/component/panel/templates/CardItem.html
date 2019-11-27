@@ -1,0 +1,46 @@
+<div class="col-xs-{{colWidth}}" style="padding-left: 0; padding-right: 0;">
+    <div class="service-panel-card" cardId="{{cardId}}" style="width: 95%; cursor: default;">
+        {{#each dataList as |data|}}
+        {{#ifCond data.dataType '==' 'TITLE'}}
+        <div>
+            <div class="col-sm-12">
+                <div class="service-imgBox col-sm-5">
+                    <img src="{{data.imageUrl}}">
+                </div>
+                <div class="service-baseInfo col-sm-7">
+                    <div class="service-baseInfo-name" title="{{data.text}}" style="height: 50px;">
+                        {{data.text}}
+                    </div>
+                    {{#each data.subTitleList as |subTitle|}}
+                    {{subTitle}}
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+        {{/ifCond}}
+        {{#ifCond data.dataType '==' 'SEP'}}
+        <div class="service-separate"></div>
+        {{/ifCond}}
+        {{#ifCond data.dataType '==' 'ROW'}}
+        <div class="form-group col-sm-12">
+            <label class="control-label text-right col-sm-5">{{data.label}}:</label>
+            <div class="col-sm-7 centerName">
+                {{data.text}}
+            </div>
+        </div>
+        {{/ifCond}}
+        {{#ifCond data.dataType '==' 'BTNS'}}
+        <div>
+            <div class="col-sm-4" style="margin-top: 3px">
+                {{#each data.dataList as |footData|}}
+                {{footData}}
+                {{/each}}
+            </div>
+            <div class="col-sm-8 btnList" style="padding-left: 0; text-align: right;">
+
+            </div>
+        </div>
+        {{/ifCond}}
+        {{/each}}
+    </div>
+</div>

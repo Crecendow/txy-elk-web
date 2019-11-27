@@ -1,0 +1,27 @@
+<div class="{{#if noPanel}}{{else}}panel{{/if}}  panel-default" style="{{#if percentHeight}}height: {{percentHeight}}%; {{/if}} margin-bottom:0px;">
+{{#if noHeader}}
+{{else}}
+    <div class="panel-heading" style="height: 49px;">
+        <h3 class="panel-title portletPanelTitle"></h3>
+    </div>
+{{/if}}
+
+    <div class="panel-body">
+        {{#if simplePanel}}
+        {{else}}
+        <div class="operation-box">
+            <div class="left-box"></div>
+            <div class="search-box"></div>
+        </div>
+        {{/if}}
+        <div class="panel-content">
+            {{{bodyViewDom}}}
+        </div>
+    </div>
+
+{{#if footBtns}}
+    <div class="panel-footer right-btn" style="border-bottom-right-radius:5px;border-bottom-left-radius:5px;text-align:right;">
+    </div>
+{{/if}}
+        
+</div>

@@ -1,3 +1,8 @@
+layui.use('element', function(){
+    var element = layui.element;
+
+});
+
 $(function(){
     $(".main_top a").on("click",function(){
         var address =$(this).attr("data-src");

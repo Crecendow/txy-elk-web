@@ -1,0 +1,9 @@
+<div class="form-group zcamp-from-field {{#if allowBlank}}{{else}}required{{/if}}" >
+    {{#if labelText}}
+    <label class="control-label {{#if labelWd}}col-md-{{labelWd}}{{/if}} {{#if hideLabel}}zcampHideDom{{/if}}">{{labelTextDis}}</label>
+    {{/if}}
+
+    <div class=" {{#if fieldWd}}col-md-{{fieldWd}}{{/if}} fieldDiv">
+        {{{childViewDom}}}
+    </div>
+</div>

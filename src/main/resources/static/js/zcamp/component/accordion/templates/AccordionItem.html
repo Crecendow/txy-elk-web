@@ -1,0 +1,18 @@
+<div class="panel panel-default zcamp-accordion-item panel-name-{{data.name}}">
+    <div class="panel-heading">
+        <span class="glyphicon glyphicon-triangle-bottom"></span>
+        <div class="panel-title">
+            <a class="accordion-toggle accordion-item-title accordion-toggle-styled " data-toggle="collapse" href="#{{accordionid}}">
+                {{data.title}}
+            </a>
+            {{#if buttons}}
+                {{#each buttons as |button|}}
+                    <a class="{{button.name}} button pull-right"><i class="fa {{button.icon}}"></i></a>
+                {{/each}}
+            {{/if}}
+        </div>
+    </div>
+    <div class="collapse in breakall" id="{{accordionid}}">
+        <div class="panel-body"></div>
+    </div>
+</div>

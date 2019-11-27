@@ -1,0 +1,47 @@
+<div class="accordionBodyView js-simple-task-common-attr-panel">
+    <form class="form-horizontal tpl-task-form">
+        <div class="form-group margin-bottom margin-bottom-lg required">
+            <label class="col-sm-4 control-label">{{I_TASK_NAME}}</label>
+            <div class="col-sm-8 input-group">
+                <input type="text" name="name" class="form-control js-task-name" placeholder="{{I_TASK_NAME}}"
+                       data-rule="{{I_TASK_NAME}}:required;"/>
+            </div>
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg">
+            <label class="col-sm-4 control-label">配方方式</label>
+            <div class="col-sm-8 input-group">
+                <label class="radio-inline">
+                    <input type="radio" name="ansibleContentType" value="I" checked="true">选择</label>
+                <label class="radio-inline">
+                    <input type="radio" name="ansibleContentType" value="U">导入</label>
+            </div>
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg ansible-playbook-select">
+            <label class="col-sm-4 control-label">{{I_TASK_ANSIBLE_PLAYBOOK}}</label>
+            <div class="col-sm-8 input-group">
+                <input type="text" name="ansiblePlaybook" class="combobox form-control ansiblePlaybook"/>
+            </div>
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg js-ansible-file-div" hidden>
+            <div class="js-ansible-file-grid-view"></div>
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg required">
+            <label class="col-sm-4 control-label">{{I_TASK_EXECTYPE}}</label>
+            <div class="col-sm-8 input-group">
+                <input type="text" name="execType" class="combobox form-control execType" data-rule="{{I_TASK_EXECTYPE}}:required;"/>
+            </div>
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg">
+            <label class="col-sm-4 control-label">{{I_TASK_COMMENTS}}</label>
+            <div class="col-sm-8 input-group">
+                    <textarea rows="3" cols="20" name="comments" class="form-control comments"
+                              placeholder="{{I_TASK_COMMENTS}}"/>
+            </div>
+        </div>
+    </form>
+</div>

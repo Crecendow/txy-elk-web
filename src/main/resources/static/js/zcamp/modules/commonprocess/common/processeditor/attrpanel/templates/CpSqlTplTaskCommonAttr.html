@@ -1,0 +1,96 @@
+<div class="accordionBodyView js-simple-task-common-attr-panel">
+    <form class="form-horizontal tpl-task-form">
+        <div class="form-group margin-bottom margin-bottom-lg required">
+            <label class="col-sm-4 control-label">{{I_TASK_NAME}}</label>
+            <div class="col-sm-8 input-group">
+                <input type="text" name="name" class="form-control js-task-name" placeholder="{{I_TASK_NAME}}"
+                       data-rule="{{I_TASK_NAME}}:required;"/>
+            </div>
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg">
+            <label class="col-sm-4 control-label">{{I_TASK_SQL_DATASOURCE}}</label>
+            <div class="col-sm-8 input-group">
+                <input type="text" name="sqlDatasource" class="combobox form-control js-sql-datasource"/>
+            </div>
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg">
+            <label class="col-sm-4 control-label">SQL提交</label>
+            <div class="col-sm-8 input-group">
+                <label class="radio-inline">
+                    <input type="radio" name="transType" value="0" checked="true">单文件</label>
+                <label class="radio-inline">
+                    <input type="radio" name="transType" value="1">单语句</label>
+            </div>
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg">
+            <label class="col-sm-4 control-label">数据源并行</label>
+            <div class="col-sm-8 input-group">
+                <label class="radio-inline">
+                    <input type="radio" name="dsExecType" value="M" checked="true">是</label>
+                <label class="radio-inline">
+                    <input type="radio" name="dsExecType" value="S">否</label>
+            </div>
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg">
+            <label class="col-sm-4 control-label">过滤DDL</label>
+            <div class="col-sm-8 input-group">
+                <label class="radio-inline">
+                    <input type="radio" name="filterDdl" value="Y">是</label>
+                <label class="radio-inline">
+                    <input type="radio" name="filterDdl" value="N" checked="true">否</label>
+            </div>
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg">
+            <label class="col-sm-4 control-label">错误处理</label>
+            <div class="col-sm-8 input-group">
+                <label class="radio-inline">
+                    <input type="radio" name="onError" value="C">继续</label>
+                <label class="radio-inline">
+                    <input type="radio" name="onError" value="S" checked="true">停止</label>
+            </div>
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg">
+            <label class="col-sm-4 control-label">内容方式</label>
+            <div class="col-sm-8 input-group">
+                <label class="radio-inline">
+                    <input type="radio" name="sqlContentType" value="I" checked="true">输入</label>
+                <label class="radio-inline">
+                    <input type="radio" name="sqlContentType" value="U">上传</label>
+            </div>
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg js-sql-content-div">
+            <label class="col-sm-4 control-label">{{I_TASK_SQL_CONTENT}}</label>
+            <div class="col-sm-8 input-group">
+                <div class="input-group">
+                    <input type="text" name="sqlContent" class="form-control js-sql-content">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg js-sql-file-div" hidden>
+            <div class="js-sql-file-grid-view"></div>
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg required">
+            <label class="col-sm-4 control-label">{{I_TASK_EXECTYPE}}</label>
+            <div class="col-sm-8 input-group">
+                <input type="text" name="execType" class="combobox form-control execType" data-rule="{{I_TASK_EXECTYPE}}:required;"/>
+            </div>
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg">
+            <label class="col-sm-4 control-label">{{I_TASK_COMMENTS}}</label>
+            <div class="col-sm-8 input-group">
+                    <textarea rows="3" cols="20" name="comments" class="form-control comments"
+                              placeholder="{{I_TASK_COMMENTS}}"/>
+            </div>
+        </div>
+    </form>
+</div>

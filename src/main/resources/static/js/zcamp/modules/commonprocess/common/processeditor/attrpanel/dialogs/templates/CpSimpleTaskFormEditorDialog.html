@@ -1,0 +1,22 @@
+<div class="ui-dialog dialog-md">
+    <div class="modal-header">
+        <h4 class="modal-title">{{ADD_FORM}}</h4>
+    </div>
+
+    <div class="modal-body">
+        <form class="form-horizontal tpl-form">
+            <div class="form-group margin-bottom margin-bottom-lg required">
+                <label class="col-sm-2 control-label">{{FORM_NAME}}</label>
+                <div class="col-sm-8 input-group">
+                    <input type="text" name="name" class="form-control name" placeholder="{{FORM_NAME}}"
+                           data-rule="{{FORM_NAME}}:required;"/>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="buttonCancle btn btn-default btn-lg" data-dismiss="modal" href="#">{{COMMON_CANCEL}}
+        </button>
+        <button type="button" class="buttonFinish btn btn-primary btn-lg">{{COMMON_CONFIRM}}</button>
+    </div>
+</div>

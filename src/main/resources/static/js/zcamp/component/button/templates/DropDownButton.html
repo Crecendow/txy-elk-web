@@ -1,0 +1,12 @@
+<div class="btn-group">
+    <a class="btn {{btnCls}} {{#if isLargeBtn}}btn-lg{{/if}} {{#if isSmallBtn}}btn-sm{{/if}} {{name}}" href="javascript:;" data-toggle="dropdown" data-hover="dropdown" data-close-others="true" aria-expanded="false">
+        {{#if icon}}<i class="fa {{icon}}"></i>{{/if}}
+        <span>{{text}}</span>
+        <!--<i class="fa fa-angle-down"></i>-->
+    </a>
+    <button class="btn btn-default {{#if isLargeBtn}}btn-lg{{/if}} {{#if isSmallBtn}}btn-sm{{/if}} dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu pull-left">
+    </ul>
+</div>

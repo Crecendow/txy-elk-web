@@ -1,0 +1,43 @@
+<div class="accordionBodyView js-common-attr-panel">
+    <form class="form-horizontal tpl-process-form">
+        <div class="form-group margin-bottom margin-bottom-lg required">
+            <label class="col-sm-4 control-label">{{I_PROCESS_NAME}}</label>
+            <div class="col-sm-8 input-group">
+                <input type="text" name="name" class="form-control name" placeholder="{{I_PROCESS_NAME}}"
+                       data-rule="{{I_PROCESS_NAME}}:required;"/>
+            </div>
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg required">
+            <label class="col-sm-4 control-label">{{I_PROCESS_CODE}}</label>
+            <div class="col-sm-8 input-group">
+                <input type="text" name="code" class="form-control code" placeholder="{{I_PROCESS_CODE}}"
+                       data-rule="{{I_PROCESS_CODE}}:required;tplCode;"/>
+            </div>
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg required">
+            <label class="col-sm-4 control-label">{{I_PROCESS_DOMAIN}}</label>
+            <div class="col-sm-8 input-group">
+                <input name="bisDomain" class="combobox form-control bisDomain" type="text"
+                       data-rule="{{I_PROCESS_DOMAIN}}:required;"/>
+            </div>
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg required">
+            <label class="col-sm-4 control-label">{{I_PROCESS_CATEGORY}}</label>
+            <div class="col-sm-8 input-group">
+                <input name="category" class="combobox form-control category" type="text"
+                       data-rule="{{I_PROCESS_CATEGORY}}:required;"/>
+            </div>
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg">
+            <label class="col-sm-4 control-label">{{I_PROCESS_COMMENTS}}</label>
+            <div class="col-sm-8 input-group">
+                                <textarea rows="5" cols="20" name="comments" class="form-control comments"
+                                          placeholder="{{I_PROCESS_COMMENTS}}"/>
+            </div>
+        </div>
+    </form>
+</div>

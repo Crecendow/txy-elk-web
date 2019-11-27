@@ -1,0 +1,8 @@
+<button type="button" class="btn {{btnCls}} {{#if isLargeBtn}}btn-lg{{/if}}
+    {{#if isSmallBtn}}btn-sm{{/if}} {{name}} {{#if tag}}btn-tag-{{tag}}{{/if}}"
+        {{#if modalCancel}}data-dismiss="modal"{{/if}}
+        {{#if disabled}}disabled="disabled"{{/if}}
+        {{#if btnStyle}}style="{{btnStyle}}"{{/if}}>
+    {{#if iconcls}}<i class="{{iconcls}}"></i>{{else if icon}}<i class="fa {{icon}}"></i>{{/if}}
+    {{#if text}}<span>{{text}}</span>{{/if}}
+</button>

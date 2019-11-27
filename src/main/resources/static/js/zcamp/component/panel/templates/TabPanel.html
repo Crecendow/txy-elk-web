@@ -1,0 +1,26 @@
+<div class="ui-tabs sub">
+    <ul class="ui-tabs-nav">
+        {{#each itemList as |item|}}
+        <li>
+            <a>{{item.title}}</a>
+        </li>
+        {{/each }}
+    </ul>
+    {{#each itemList as |item|}}
+    <div class="ui-tabs-panel {{item.name}}">
+        {{item.content}}
+    </div>
+    <!--<div class="simple-collapse-item ">-->
+        <!--<div class="simple-collapse-header" {{#if isExpanded}}aria-expanded="true"{{else}}aria-expanded="false"{{/if}} >-->
+            <!--<i class="arrow glyphicon glyphicon-menu-left"></i>-->
+            <!--<div class="common-title">-->
+                <!--<span class="title-span">{{item.title}}</span>-->
+                <!--<span class="title-intro"></span>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="simple-collapse-content {{#if isExpanded}}simple-collapse-content-active{{else}}simple-collapse-content-inactive{{/if}} ">-->
+            <!--<div class="simple-collapse-content-box {{item.name}}"></div>-->
+        <!--</div>-->
+    <!--</div>-->
+    {{/each }}
+</div>

@@ -1,0 +1,29 @@
+<div class="accordionBodyView js-simple-task-common-attr-panel" >
+    <form class="form-horizontal tpl-task-form">
+        <div class="form-group margin-bottom margin-bottom-lg required">
+            <label class="col-sm-4 control-label">{{I_TASK_NAME}}</label>
+            <div class="col-sm-8 input-group">
+                <input type="text" name="name" class="form-control js-task-name" placeholder="{{I_TASK_NAME}}"
+                       data-rule="{{I_TASK_NAME}}:required;"/>
+            </div>
+        </div>
+
+        <div class = "js-task-action">
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg required">
+            <label class="col-sm-4 control-label">{{I_TASK_EXECTYPE}}</label>
+            <div class="col-sm-8 input-group">
+                <input type="text" name="execType" class="combobox form-control execType" data-rule="{{I_TASK_EXECTYPE}}:required;"/>
+            </div>
+        </div>
+
+        <div class="form-group margin-bottom margin-bottom-lg">
+            <label class="col-sm-4 control-label">{{I_TASK_COMMENTS}}</label>
+            <div class="col-sm-8 input-group">
+                    <textarea rows="3" cols="20" name="comments" class="form-control comments"
+                              placeholder="{{I_TASK_COMMENTS}}"/>
+            </div>
+        </div>
+    </form>
+</div>

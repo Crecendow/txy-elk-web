@@ -1,0 +1,126 @@
+
+.PlanProgressView .accordion .panel .panel-heading {
+    padding: 0;
+}
+
+.PlanProgressView .accordion .panel .panel-title {
+    padding: 0;
+}
+
+.PlanProgressView .accordion .panel .panel-title .accordion-toggle {
+    display: block;
+    padding: 10px 15px;
+}
+
+.PlanProgressView .accordion .panel .panel-title .accordion-toggle.accordion-toggle-styled {
+    margin-right: 30px;
+}
+
+.PlanProgressView .accordion .panel .panel-title .accordion-toggle.accordion-toggle-styled.collapsed {
+    background-position: right 12px;
+}
+
+.PlanProgressView .accordion .panel .panel-default {
+    box-shadow: none;
+}
+.PlanProgressView .accordion .panel {
+    box-shadow: none;
+}
+
+.PlanProgressView .panel-group.accordion .panel.panel-default {
+    padding: 15px 0px;
+}
+
+.PlanProgressView .accordion .panel .panel-body {
+    margin-top: 10px;
+}
+
+.PlanProgressView .accordion .panel .panel-heading {
+    margin: -15px 0px;
+    /*background: #eee;*/
+}
+
+.PlanProgressView .accordion .panel .panel-heading {
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.PlanProgressView .accordion .panel .panel-title {
+    padding: 0;
+}
+.PlanProgressView .accordion .panel .panel-title .accordion-toggle {
+    display: block;
+    padding: 10px 15px;
+}
+
+.PlanProgressView .accordion .panel .panel-title .accordion-toggle.accordion-toggle-styled {
+    background: url("./img/accordion-plusminus.png") no-repeat;
+    background-position: right -19px;
+    margin-right: 15px;
+}
+.PlanProgressView .accordion .panel .panel-title .accordion-toggle.accordion-toggle-styled.collapsed {
+    background-position: right 12px;
+}
+
+.PlanProgressView .panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 4px;
+}
+
+.PlanProgressView .accordion .panel .panel-heading {
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.PlanProgressView .accordion .panel .panel-body {
+    padding: 15px;
+}
+.PlanProgressView .panel-default {
+    border-color: #ddd;
+}
+.PlanProgressView .panel-default > .panel-heading {
+    color: #333;
+    border-color: #ddd;
+}
+.PlanProgressView .panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #ddd;
+}
+.PlanProgressView .panel-default > .panel-heading .badge {
+    color: #f5f5f5;
+    background-color: #333;
+}
+.PlanProgressView .panel-default > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #ddd;
+}
+.PlanProgressView .panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.PlanProgressView .panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.PlanProgressView .accordion h1,
+.PlanProgressView .accordion h2,
+.PlanProgressView .accordion h3,
+.PlanProgressView .accordion h4,
+.PlanProgressView .accordion h5,
+.PlanProgressView .accordion h6,
+.PlanProgressView .accordion .h1,
+.PlanProgressView .accordion .h2,
+.PlanProgressView .accordion .h3,
+.PlanProgressView .accordion .h4,
+.PlanProgressView .accordion .h5,
+.PlanProgressView .accordion .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.zcampBaseViewDiv .breakall {
+    word-wrap: break-word;
+    word-break: break-all;
+}

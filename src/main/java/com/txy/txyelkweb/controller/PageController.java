@@ -49,6 +49,16 @@ public class PageController {
         return "info/info5.html";
     }
 
+    @GetMapping("/info6")
+    public String getInfo6(){
+        return "info/info6.html";
+    }
+
+    @GetMapping("/bpmn")
+    public String getBpmn(){
+        return "info/bpmn.html";
+    }
+
     @GetMapping("/login")
     public String getLogin(){
         return "user/login.html";
