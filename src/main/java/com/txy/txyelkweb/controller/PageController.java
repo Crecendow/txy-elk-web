@@ -59,8 +59,15 @@ public class PageController {
         return "info/bpmn.html";
     }
 
+    @GetMapping("/edit")
+    public String getEditPage(){
+        return "info/operation/edit.html";
+    }
+
     @GetMapping("/login")
     public String getLogin(){
         return "user/login.html";
     }
+
+
 }

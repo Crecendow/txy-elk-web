@@ -7,6 +7,9 @@ package com.txy.txyelkweb.controller;
  */
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  *
@@ -21,5 +24,11 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class MainController {
 
+    @PostMapping("/searchIPStatus")
+    @ResponseBody
+    public String searchIPAddress(@RequestParam("IPaddress") String IPAddress){
+        System.out.println( IPAddress );
+        return "normal";
+    }
 
 }

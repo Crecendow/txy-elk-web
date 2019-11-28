@@ -1,10 +1,15 @@
 var node = fishTopoFlow.node;
 var flowLink = fishTopoFlow.link;
 var constants = fishTopoFlow.constants;
+var graphic = fishTopoFlow.graphic;
+var Tree = fishTopoFlow.layout.Tree;
 var canvasDom = document.getElementById("flowIns");
 
+layui.use(['layer', 'form'], function(){
+    var layer = layui.layer
+        ,form = layui.form;
 
-
+});
 
 // var fishTopo = fishTopoFlow.init(canvasDom);
 var fishTopo = fishTopoFlow.init(canvasDom, {
@@ -22,6 +27,7 @@ var fishTopo = fishTopoFlow.init(canvasDom, {
         }
     }
 });
+
 fishTopo.setBackground("#F9F9F9");
 
 
@@ -41,7 +47,10 @@ function button1(){
         ],
         position:[400,43]
     });
-    alert(hostNode);
+    hostNode.on("dblclick",function(e) {
+        var event = {type:"item:dblclick",data:e.target.style.text}
+        fishTopo.trigger(event.type, event);
+    });
     fishTopo.add(hostNode);
     var alarm1 = fishTopo.createAlarm(hostNode,{
         text:"二级警告",
@@ -137,7 +146,6 @@ function button4() {
 }
 
 function button5() {
-
     var serverNode = new node.Image({
         style: {
             image: '../svg/host.svg',
@@ -163,7 +171,6 @@ function button5() {
 }
 
 function button6() {
-
     var serverNode = new node.Image({
         style: {
             image: '../svg/net.svg',
@@ -215,6 +222,7 @@ function button7() {
 
 
 
+
 fishTopo.on('click',function(event) {
     var model = event.target.model;
     if(fishTopo.Flow.isLink(model)) {
@@ -260,4 +268,20 @@ $('.btn-connect').click(function(e) {
     });
 });
 
+
+fishTopo.on("item:dblclick",function(e) {
+    layer.msg("点击了一下哥哥");
+
+    layer.open({
+        type:2,
+        title:'修改IP地址信息',
+        area:["300px","200px"],
+        content:"/edit",
+        success:function(dom){
+            $iframeDom=$(dom[0]).find("iframe").eq(0).contents();
+            $iframeDom.find("#IP_address").val(11);
+        }
+    });
+
+});
 
