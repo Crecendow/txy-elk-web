@@ -4,12 +4,20 @@ var constants = fishTopoFlow.constants;
 var graphic = fishTopoFlow.graphic;
 var Tree = fishTopoFlow.layout.Tree;
 var canvasDom = document.getElementById("flowIns");
+var myVar;
+
 
 layui.use(['layer', 'form'], function(){
     var layer = layui.layer
         ,form = layui.form;
 
 });
+
+/*
+$(function(){
+
+     myVar = setInterval(getHostNodeStatus,5000);
+});*/
 
 // var fishTopo = fishTopoFlow.init(canvasDom);
 var fishTopo = fishTopoFlow.init(canvasDom, {
@@ -27,13 +35,44 @@ var fishTopo = fishTopoFlow.init(canvasDom, {
         }
     }
 });
-
 fishTopo.setBackground("#F9F9F9");
+
+var hostNode;
+var alarm1;
+
+function getHostNodeStatus(){
+
+    $.get({
+        url: "/searchIPAddress",
+        data: {
+            hostValue: $("#hostValue").val(),
+        },
+        success: function (data) {
+            if(data == "500"){
+                alarm1.hide();
+            }
+            else{
+                alarm1.show();
+
+
+                // setInterval(function(){
+                //     if (alarm1.ignore) {
+                //         alarm1.show();
+                //     } else {
+                //         alarm1.hide();
+                //     }
+                // }, 600);
+
+            }
+        }
+    });
+}
+
 
 
 
 function button1(){
-    var hostNode = new node.Image({
+     hostNode = new node.Image({
         style: {
             image: '../svg/cloud1.svg',
             width:120,
@@ -52,21 +91,32 @@ function button1(){
         fishTopo.trigger(event.type, event);
     });
     fishTopo.add(hostNode);
-    var alarm1 = fishTopo.createAlarm(hostNode,{
+    alarm1 = fishTopo.createAlarm(hostNode,{
         text:"二级警告",
         textFont:"16px Microsoft YaHei",
         textFill:"#FFFFFF",
         textBackground:"rgba(255,0,0,0.6)"
     });
-    setInterval(function(){
-        if (alarm1.ignore) {
-            alarm1.show();
-        } else {
-            alarm1.hide();
-        }
-    }, 600);
-}
 
+    alarm1.hide();
+    myVar = setInterval(getHostNodeStatus,5000);
+
+/*
+    setInterval(function(){
+        $.ajax({
+            url: "/getStatus",
+            success: function (data) {
+                if(data == "normal"){
+                    var index = parent.layer.getFrameIndex(window.name); //先得到当前iframe层的索引
+                    parent.layer.close(index); //再执行关闭
+                }
+                else{
+                    layer.msg("添加失败");
+                }
+            }
+        });
+    }, 600);*/
+}
 
 
 
@@ -86,12 +136,6 @@ function button2() {
         position:[150,43]
     });
     fishTopo.add(serverNode);
-    fishTopo.createAlarm(serverNode,{
-        text:"2 W",
-        textFont:"16px Microsoft YaHei",
-        textFill:"#FFFFFF",
-        textBackground:"rgba(255,0,0,0.6)"
-    });//创建小图片和节点绑定
 }
 
 function button3() {
@@ -109,18 +153,10 @@ function button3() {
         ],
         position:[150,43]
     });
-    fishTopo.add(serverNode);
-    fishTopo.createAlarm(serverNode,{
-        text:"2 W",
-        textFont:"16px Microsoft YaHei",
-        textFill:"#FFFFFF",
-        textBackground:"rgba(255,0,0,0.6)"
-    });//创建小图片和节点绑定
 
 }
 
 function button4() {
-
     var serverNode = new node.Image({
         style: {
             image: '../svg/cluster.svg',
@@ -136,13 +172,6 @@ function button4() {
         position:[150,43]
     });
     fishTopo.add(serverNode);
-    fishTopo.createAlarm(serverNode,{
-        text:"2 W",
-        textFont:"16px Microsoft YaHei",
-        textFill:"#FFFFFF",
-        textBackground:"rgba(255,0,0,0.6)"
-    });//创建小图片和节点绑定
-
 }
 
 function button5() {
@@ -161,13 +190,6 @@ function button5() {
         position:[150,43]
     });
     fishTopo.add(serverNode);
-    fishTopo.createAlarm(serverNode,{
-        text:"2 W",
-        textFont:"16px Microsoft YaHei",
-        textFill:"#FFFFFF",
-        textBackground:"rgba(255,0,0,0.6)"
-    });//创建小图片和节点绑定
-
 }
 
 function button6() {
@@ -186,13 +208,6 @@ function button6() {
         position:[150,43]
     });
     fishTopo.add(serverNode);
-    fishTopo.createAlarm(serverNode,{
-        text:"2 W",
-        textFont:"16px Microsoft YaHei",
-        textFill:"#FFFFFF",
-        textBackground:"rgba(255,0,0,0.6)"
-    });//创建小图片和节点绑定
-
 }
 
 function button7() {
@@ -211,15 +226,7 @@ function button7() {
         position:[150,43]
     });
     fishTopo.add(serverNode);
-    fishTopo.createAlarm(serverNode,{
-        text:"2 W",
-        textFont:"16px Microsoft YaHei",
-        textFill:"#FFFFFF",
-        textBackground:"rgba(255,0,0,0.6)"
-    });//创建小图片和节点绑定
-
 }
-
 
 
 
@@ -284,4 +291,43 @@ fishTopo.on("item:dblclick",function(e) {
     });
 
 });
+
+// toolbar
+var $btnDefault = $('.js-toolbar .mutex .btn-default');
+$('.js-export-json').click(function() {
+    fish.popupView({
+        url: "views/import-export/export-json-dialog.js",
+        viewOption:{json:JSON.stringify(fishTopo.toJson(), null, 4)}
+    })
+    console.log(JSON.stringify(fishTopo.toJson(), null, 4));
+});
+$('.js-export-png').click(function() {
+    var url = fishTopo.toDataURL();
+    var w = window.open('about:blank', 'image from canvas');
+    w.document.write("<img src='" + url + "' alt='from canvas'/>");
+});
+
+$('.btn-connect').click(function(e) {
+    console.log(e.target.name);
+    fishTopo.showConnectorPoint(e.currentTarget.name, {
+        symbol: {
+            // 箭头颜色
+            color: "#BBBBBB"
+        },
+        style: {
+            // 线条颜色
+            stroke: "#BBBBBB",
+        }
+    });
+});
+
+$('.js-btnGridLine').click(function() {
+    var showGridLine = this.checked;
+    fishTopo.forbidGridLine(showGridLine);
+});
+
+
+
+
+
 

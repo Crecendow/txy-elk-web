@@ -201,3 +201,22 @@ $('.js-export-png').click(function() {
     var w = window.open('about:blank', 'image from canvas');
     w.document.write("<img src='" + url + "' alt='from canvas'/>");
 });
+
+$('.btn-connect').click(function(e) {
+    console.log(e.target.name);
+    fishTopo.showConnectorPoint(e.currentTarget.name, {
+        symbol: {
+            // 箭头颜色
+            color: "#BBBBBB"
+        },
+        style: {
+            // 线条颜色
+            stroke: "#BBBBBB",
+        }
+    });
+});
+
+$('.js-btnGridLine').click(function() {
+    var showGridLine = this.checked;
+    fishTopo.forbidGridLine(showGridLine);
+});
